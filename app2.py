@@ -18,9 +18,9 @@ Version: 2.0
 from flask import Flask, render_template, request, jsonify
 import google.generativeai as genai
 from google.generativeai import types
+import os
 import re
 import json
-import os
 import logging
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
@@ -1762,10 +1762,12 @@ initialize_application()
 if __name__ == "__main__":
     try:
         logger.info("Starting OS Study Bot server...")
+        port = int(os.environ.get('PORT', 5001))
+        debug_mode = os.environ.get('FLASK_ENV') != 'production'
         app.run(
-            debug=True,
-            host='127.0.0.1',
-            port=5001,
+            debug=debug_mode,
+            host='0.0.0.0',
+            port=port,
             threaded=True,
             use_reloader=False  # Disable reloader to prevent double initialization
         )
