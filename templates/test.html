@@ -1,0 +1,368 @@
+<!-- templates/test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>OS Study Bot — Neural Test Center</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='test.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <header class="topbar">
+        <div class="brand">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="title">Neural Test Center</span>
+                    <span class="subtitle">AI-Powered Assessment</span>
+                </div>
+            </div>
+        </div>
+        <nav class="actions">
+            <a class="nav-btn" href="{{ url_for('home') }}">
+                <i class="fas fa-comments"></i>
+                <span>Back to Chat</span>
+            </a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="test-panel">
+            <div class="panel-header">
+                <div class="test-selector">
+                    <div class="selector-label">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Select Assessment Mode</span>
+                    </div>
+                    <div class="custom-select">
+                        <select id="modeSel">
+                            <option value="UT1">🧠 Unit Test 1</option>
+                            <option value="UT2">⚡ Unit Test 2</option>
+                            <option value="UT1_UT2">🎯 Combined Test</option>
+                            <option value="ALL">🚀 Final Assessment</option>
+                        </select>
+                        <div class="select-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-buttons">
+                    <button id="btnLoad" class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        <span>Start Assessment</span>
+                    </button>
+                    <button id="btnRestart" class="btn btn-secondary" style="display:none;">
+                        <i class="fas fa-redo"></i>
+                        <span>Restart</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="quizArea" class="quiz-container hidden">
+                <div class="progress-header">
+                    <div class="progress-info">
+                        <div id="qCounter" class="question-counter">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Question 1 of N</span>
+                        </div>
+                        <div id="scoreBadge" class="score-display">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Score: 0%</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <div id="questionCard" class="question-card">
+                    <div class="question-header">
+                        <div class="question-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="question-content">
+                            <div id="questionText" class="question-text">Question text here…</div>
+                        </div>
+                    </div>
+                    
+                    <div class="answer-section">
+                        <div class="answer-label">
+                            <i class="fas fa-edit"></i>
+                            <span>Your Answer</span>
+                        </div>
+                        <textarea id="answerBox" rows="6" class="answer-input" placeholder="Type your detailed answer here..."></textarea>
+                        <div class="char-counter">
+                            <span id="charCount">0</span> characters
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button id="btnSubmit" class="btn btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Submit Answer</span>
+                        </button>
+                        <button id="btnNext" class="btn btn-next" disabled>
+                            <span>Next Question</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="resultCard" class="result-card hidden">
+                    <div class="result-header">
+                        <div class="score-display-large">
+                            <div id="resultPercent" class="score-number">0%</div>
+                            <div class="score-label">Similarity Score</div>
+                        </div>
+                        <div class="result-status">
+                            <div class="status-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="status-text">Answer Evaluated</div>
+                        </div>
+                    </div>
+                    
+                    <div class="feedback-section">
+                        <div class="feedback-header">
+                            <i class="fas fa-comments"></i>
+                            <span>AI Feedback</span>
+                        </div>
+                        <div id="feedbackText" class="feedback-content">Feedback will appear here.</div>
+                    </div>
+
+                    <div class="analysis-grid">
+                        <div class="analysis-card ideal-answer">
+                            <div class="analysis-header">
+                                <i class="fas fa-star"></i>
+                                <h4>Ideal Answer</h4>
+                            </div>
+                            <ul id="idealList" class="analysis-list"></ul>
+                        </div>
+                        <div class="analysis-card missed-points">
+                            <div class="analysis-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <h4>Key Points Missed</h4>
+                            </div>
+                            <ul id="missedList" class="analysis-list"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="finalCard" class="final-card hidden">
+                    <div class="final-header">
+                        <div class="final-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h2>Assessment Complete!</h2>
+                        <p>Your performance has been analyzed</p>
+                    </div>
+                    
+                    <div class="final-score">
+                        <div id="finalPercent" class="final-score-number">0%</div>
+                        <div class="final-score-label">Overall Score</div>
+                    </div>
+                    
+                    <div class="final-summary">
+                        <div id="finalSummary" class="summary-text"></div>
+                    </div>
+                    
+                    <div class="final-actions">
+                        <button class="btn btn-primary" onclick="location.reload()">
+                            <i class="fas fa-redo"></i>
+                            <span>Take Another Test</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <i class="fas fa-robot"></i>
+                <span>Powered by AI • Neural Assessment Engine</span>
+            </div>
+            <div class="footer-tech">
+                <span>Advanced ML • Real-time Analysis • Intelligent Feedback</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const modeSel = document.getElementById("modeSel");
+        const btnLoad = document.getElementById("btnLoad");
+        const btnRestart = document.getElementById("btnRestart");
+
+        const quizArea = document.getElementById("quizArea");
+        const qCounter = document.getElementById("qCounter");
+        const scoreBadge = document.getElementById("scoreBadge");
+        const questionText = document.getElementById("questionText");
+        const answerBox = document.getElementById("answerBox");
+        const btnSubmit = document.getElementById("btnSubmit");
+        const btnNext = document.getElementById("btnNext");
+        const charCount = document.getElementById("charCount");
+        const progressFill = document.getElementById("progressFill");
+
+        const resultCard = document.getElementById("resultCard");
+        const resultPercent = document.getElementById("resultPercent");
+        const feedbackText = document.getElementById("feedbackText");
+        const idealList = document.getElementById("idealList");
+        const missedList = document.getElementById("missedList");
+
+        const finalCard = document.getElementById("finalCard");
+        const finalPercent = document.getElementById("finalPercent");
+        const finalSummary = document.getElementById("finalSummary");
+
+        // Character counter for textarea
+        answerBox.addEventListener('input', function() {
+            charCount.textContent = this.value.length;
+        });
+
+        let questions = [];
+        let idx = 0;
+        let scores = [];
+        let running = false;
+
+        btnLoad.addEventListener("click", async () => {
+            const mode = modeSel.value;
+            const res = await fetch("/questions");
+            const data = await res.json();
+
+            if (mode === "UT1") questions = data.UT1 || [];
+            else if (mode === "UT2") questions = data.UT2 || [];
+            else if (mode === "UT1_UT2") questions = data.UT1_UT2 || [];
+            else questions = data.ALL || [];
+
+            if (!questions.length) {
+                alert("No questions found for this set.");
+                return;
+            }
+
+            idx = 0;
+            scores = [];
+            running = true;
+
+            btnLoad.style.display = "none";
+            btnRestart.style.display = "inline-block";
+            quizArea.classList.remove("hidden");
+            finalCard.classList.add("hidden");
+
+            loadQuestion();
+        });
+
+        btnRestart.addEventListener("click", () => {
+            location.reload();
+        });
+
+        btnSubmit.addEventListener("click", async () => {
+            const ans = answerBox.value.trim();
+            if (!ans) { alert("Please type your answer first."); return; }
+
+            btnSubmit.disabled = true;
+
+            // Evaluate
+            try {
+                const response = await fetch("/evaluate", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({
+                        question: questions[idx],
+                        student_answer: ans,
+                        bucket: modeSel.value
+                    })
+                });
+                const data = await response.json();
+                if (!data.ok) {
+                    showResult(0, "Grading failed. " + (data.error || ""), [], []);
+                } else {
+                    scores.push(data.score || 0);
+                    showResult(data.score, data.feedback, data.ideal_answer || [], data.key_points_missed || []);
+                }
+            } catch (e) {
+                showResult(0, "Network error.", [], []);
+            }
+
+            btnNext.disabled = false;
+        });
+
+        btnNext.addEventListener("click", () => {
+            if (idx < questions.length - 1) {
+                idx++;
+                loadQuestion();
+            } else {
+                finishTest();
+            }
+        });
+
+        function loadQuestion() {
+            // Reset cards with smooth animations
+            resultCard.classList.add("hidden");
+            btnNext.disabled = true;
+            btnSubmit.disabled = false;
+            answerBox.value = "";
+            charCount.textContent = "0";
+
+            // Set question/meta with smooth updates
+            questionText.textContent = questions[idx];
+            qCounter.innerHTML = `<i class="fas fa-question-circle"></i><span>Question ${idx + 1} of ${questions.length}</span>`;
+            scoreBadge.innerHTML = `<i class="fas fa-chart-line"></i><span>Score: ${avg(scores)}%</span>`;
+            
+            // Update progress bar
+            const progress = ((idx + 1) / questions.length) * 100;
+            progressFill.style.width = `${progress}%`;
+            
+            // Add smooth entrance animation
+            setTimeout(() => {
+                document.getElementById('questionCard').style.opacity = '1';
+                document.getElementById('questionCard').style.transform = 'translateY(0)';
+            }, 100);
+        }
+
+        function showResult(score, feedback, idealArr, missedArr) {
+            resultPercent.textContent = `${Math.round(score)}%`;
+            feedbackText.textContent = feedback || "";
+
+            idealList.innerHTML = (idealArr || []).map(b => `<li>${escapeHtml(b)}</li>`).join("") || "<li>—</li>";
+            missedList.innerHTML = (missedArr || []).map(b => `<li>${escapeHtml(b)}</li>`).join("") || "<li>—</li>";
+
+            resultCard.classList.remove("hidden");
+        }
+
+        function finishTest() {
+            running = false;
+            finalCard.classList.remove("hidden");
+            const final = avg(scores);
+            finalPercent.textContent = `${final}%`;
+            finalSummary.textContent = `Answered ${scores.length} out of ${questions.length} questions.`;
+        }
+
+        function avg(arr) {
+            if (!arr.length) return 0;
+            return Math.round(arr.reduce((a,b)=>a+b,0)/arr.length);
+        }
+
+        function escapeHtml(str) {
+            return (str || "")
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;");
+        }
+    </script>
+</body>
+</html>

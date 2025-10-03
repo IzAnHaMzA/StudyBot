@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Study Bot - Neural Interface</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="neural-grid"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <div class="logo">
+                    <i class="fas fa-brain"></i>
+                    <div class="pulse-ring"></div>
+                </div>
+                <div class="brand-text">
+                    <h1>OS Study Bot</h1>
+                    <span class="subtitle">Neural Learning Interface</span>
+                </div>
+            </div>
+            <nav class="nav-actions">
+                <a href="{{ url_for('test_page') }}" class="nav-btn">
+                    <i class="fas fa-flask"></i>
+                    <span>Test Center</span>
+                </a>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Online</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Chat Interface -->
+    <main class="main-container">
+        <div class="chat-container">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-title">
+                    <i class="fas fa-comments"></i>
+                    <h2>Neural Chat Interface</h2>
+                </div>
+                <div class="chat-stats">
+                    <div class="stat">
+                        <i class="fas fa-database"></i>
+                        <span>160 Questions</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-brain"></i>
+                        <span>AI Powered</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="messages-container">
+                <div id="messages" class="messages" aria-live="polite">
+                    <div class="welcome-message">
+                        <div class="welcome-content">
+                            <i class="fas fa-robot"></i>
+                            <h3>Welcome to OS Study Bot</h3>
+                            <p>Ask me anything about Operating Systems. I can help with definitions, explanations, comparisons, and more!</p>
+                            <div class="quick-actions">
+                                <button class="quick-btn" data-question="What is an operating system?">
+                                    <i class="fas fa-question-circle"></i>
+                                    What is an OS?
+                                </button>
+                                <button class="quick-btn" data-question="Differentiate between process and thread">
+                                    <i class="fas fa-code-branch"></i>
+                                    Process vs Thread
+                                </button>
+                                <button class="quick-btn" data-question="Explain memory management">
+                                    <i class="fas fa-memory"></i>
+                                    Memory Management
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Typing Indicator -->
+                <div id="typingIndicator" class="typing-indicator hidden">
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="typing-text">AI is thinking...</span>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <div class="input-field">
+                        <i class="fas fa-paper-plane input-icon"></i>
+                        <input 
+                            type="text" 
+                            id="userInput" 
+                            placeholder="Ask me anything about Operating Systems..." 
+                            autocomplete="off"
+                            maxlength="500"
+                        />
+                        <div class="input-actions">
+                            <button id="sendBtn" class="send-btn" title="Send message">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input-hint">
+                        <i class="fas fa-keyboard"></i>
+                        <span>Press Enter to send</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toolbar -->
+            <div class="toolbar">
+                <div class="toolbar-section">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input id="recInput" placeholder="Search saved Q&A..." />
+                        <button id="recBtn" class="search-btn">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="toolbar-section">
+                    <button id="openSaved" class="toolbar-btn">
+                        <i class="fas fa-bookmark"></i>
+                        <span>Saved Q&A</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Save Modal -->
+    <div id="saveModal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-save"></i> Save Q&A</h3>
+                <button class="modal-close" id="cancelSave">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label><i class="fas fa-question-circle"></i> Question</label>
+                    <div id="saveQuestion" class="readonly-field"></div>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-comment-dots"></i> Answer</label>
+                    <div id="saveAnswer" class="readonly-field pre"></div>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-folder"></i> Choose folder</label>
+                    <select id="saveFolder" class="form-select"></select>
+                    <input id="newFolderInput" placeholder="Or create new folder..." class="form-input" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="confirmSave" class="btn-primary">
+                    <i class="fas fa-save"></i>
+                    Save
+                </button>
+                <button id="cancelSave2" class="btn-secondary">
+                    <i class="fas fa-times"></i>
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Saved List Modal -->
+    <div id="listModal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h3><i class="fas fa-bookmark"></i> Saved Q&A</h3>
+                <button class="modal-close" id="closeList">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="savedFolders" class="folders-grid"></div>
+                <div id="savedList" class="saved-list"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="closeList2" class="btn-secondary">
+                    <i class="fas fa-times"></i>
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <i class="fas fa-robot"></i>
+                <span>Powered by AI • Local & Cloud Support</span>
+            </div>
+            <div class="footer-stats">
+                <span><i class="fas fa-database"></i> 72,221 chars</span>
+                <span><i class="fas fa-brain"></i> 4 ML Models</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // DOM Elements
+        const messagesDiv = document.getElementById("messages");
+        const inputEl = document.getElementById("userInput");
+        const sendBtn = document.getElementById("sendBtn");
+        const recBtn = document.getElementById("recBtn");
+        const recInput = document.getElementById("recInput");
+        const typingIndicator = document.getElementById("typingIndicator");
+
+        // Modal elements
+        const saveModal = document.getElementById("saveModal");
+        const saveQuestionEl = document.getElementById("saveQuestion");
+        const saveAnswerEl = document.getElementById("saveAnswer");
+        const saveFolderSelect = document.getElementById("saveFolder");
+        const newFolderInput = document.getElementById("newFolderInput");
+        const confirmSaveBtn = document.getElementById("confirmSave");
+        const cancelSaveBtn = document.getElementById("cancelSave");
+        const cancelSaveBtn2 = document.getElementById("cancelSave2");
+
+        const listModal = document.getElementById("listModal");
+        const savedFoldersEl = document.getElementById("savedFolders");
+        const savedListEl = document.getElementById("savedList");
+        const openSavedBtn = document.getElementById("openSaved");
+        const closeListBtn = document.getElementById("closeList");
+        const closeListBtn2 = document.getElementById("closeList2");
+
+        // State
+        let lastReply = null;
+        let lastQuestionForSave = null;
+        let isTyping = false;
+
+        // Utility functions
+        function escapeHtml(s) { 
+            return (s || "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;"); 
+        }
+
+        function showTyping() {
+            if (isTyping) return;
+            isTyping = true;
+            typingIndicator.classList.remove("hidden");
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function hideTyping() {
+            isTyping = false;
+            typingIndicator.classList.add("hidden");
+        }
+
+        // Message rendering
+        function addUserMessage(text) {
+            const messageEl = document.createElement("div");
+            messageEl.className = "message user-message";
+            messageEl.innerHTML = `
+                <div class="message-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">${escapeHtml(text)}</div>
+                    <div class="message-time">${new Date().toLocaleTimeString()}</div>
+                </div>
+            `;
+            messagesDiv.appendChild(messageEl);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function addBotMessage(html) {
+            const messageEl = document.createElement("div");
+            messageEl.className = "message bot-message";
+            messageEl.innerHTML = `
+                <div class="message-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">${html}</div>
+                    <div class="message-time">${new Date().toLocaleTimeString()}</div>
+                </div>
+            `;
+            messagesDiv.appendChild(messageEl);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function renderDiffTable(leftArr, rightArr) {
+            let rows = `<div class="diff-table">`;
+            const n = Math.max(leftArr.length, rightArr.length);
+            for (let i = 0; i < n; i++) {
+                const L = escapeHtml(leftArr[i] || "");
+                const R = escapeHtml(rightArr[i] || "");
+                rows += `<div class="diff-row"><div class="diff-cell">${L}</div><div class="diff-cell">${R}</div></div>`;
+            }
+            rows += `</div>`;
+            addBotMessage(rows + `<div class="save-row"><button class="save-btn"><i class="fas fa-save"></i> Save this Q&A</button></div>`);
+            attachSaveButtons();
+        }
+
+        function addNormalBotAnswer(txt) {
+            const html = escapeHtml(txt).replace(/\n/g, "<br>");
+            addBotMessage(`<div class="answer-text">${html}</div><div class="save-row"><button class="save-btn"><i class="fas fa-save"></i> Save this Q&A</button></div>`);
+            attachSaveButtons();
+        }
+
+        // Save button functionality
+        function attachSaveButtons() {
+            document.querySelectorAll(".save-btn").forEach(btn => {
+                if (!btn.dataset.bound) {
+                    btn.dataset.bound = "1";
+                    btn.addEventListener("click", () => {
+                        const userMsgs = Array.from(document.querySelectorAll(".user-message"));
+                        const lastUser = userMsgs[userMsgs.length - 1];
+                        const q = lastUser ? lastUser.querySelector(".message-text").textContent.trim() : "";
+                        
+                        const botMsgs = Array.from(document.querySelectorAll(".bot-message"));
+                        const lastBot = botMsgs[botMsgs.length - 1];
+                        const answerHtml = lastBot ? lastBot.querySelector(".message-text").innerHTML : "";
+                        
+                        lastReply = answerHtml;
+                        lastQuestionForSave = q;
+                        openSaveModal(q, answerHtml);
+                    });
+                }
+            });
+        }
+
+        // Save modal functions
+        function openSaveModal(question, answerHtml) {
+            saveQuestionEl.textContent = question;
+            saveAnswerEl.innerHTML = answerHtml;
+            newFolderInput.value = "";
+            
+            fetch("/list_saved")
+                .then(r => r.json())
+                .then(data => {
+                    const folders = data.folders || [];
+                    saveFolderSelect.innerHTML = "";
+                    folders.forEach(f => {
+                        saveFolderSelect.insertAdjacentHTML("beforeend", `<option value="${escapeHtml(f)}">${escapeHtml(f)}</option>`);
+                    });
+                    saveFolderSelect.insertAdjacentHTML("beforeend", `<option value="default">default</option>`);
+                });
+            saveModal.classList.remove("hidden");
+        }
+
+        function closeSaveModal() {
+            saveModal.classList.add("hidden");
+        }
+
+        // Event listeners
+        confirmSaveBtn.addEventListener("click", () => {
+            const folder = newFolderInput.value.trim() || saveFolderSelect.value || "default";
+            const answerHtml = lastReply || "";
+            const tmp = document.createElement("div");
+            tmp.innerHTML = answerHtml;
+            const answerText = tmp.innerText || tmp.textContent || answerHtml;
+            
+            fetch("/save_answer", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question: lastQuestionForSave, answer: answerText, folder })
+            })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.ok) {
+                        closeSaveModal();
+                        addBotMessage(`<div class="success-message"><i class="fas fa-check-circle"></i> Saved to folder: ${escapeHtml(folder)}</div>`);
+                    } else {
+                        alert("Save failed: " + (data.error || "unknown"));
+                    }
+                })
+                .catch(err => {
+                    alert("Network error saving: " + err);
+                });
+        });
+
+        cancelSaveBtn.addEventListener("click", closeSaveModal);
+        cancelSaveBtn2.addEventListener("click", closeSaveModal);
+
+        // Saved list functionality
+        openSavedBtn.addEventListener("click", () => {
+            fetch("/list_saved").then(r => r.json()).then(data => {
+                const folders = data.folders || [];
+                savedFoldersEl.innerHTML = "";
+                folders.forEach(f => {
+                    const btn = document.createElement("button");
+                    btn.className = "folder-btn";
+                    btn.innerHTML = `<i class="fas fa-folder"></i> ${escapeHtml(f)}`;
+                    btn.addEventListener("click", () => { loadSavedFolder(f); });
+                    savedFoldersEl.appendChild(btn);
+                });
+                
+                const entries = data.entries || [];
+                displaySavedEntries(entries);
+                listModal.classList.remove("hidden");
+            });
+        });
+
+        closeListBtn.addEventListener("click", () => listModal.classList.add("hidden"));
+        closeListBtn2.addEventListener("click", () => listModal.classList.add("hidden"));
+
+        function loadSavedFolder(folder) {
+            fetch(`/list_saved?folder=${encodeURIComponent(folder)}`)
+                .then(r => r.json())
+                .then(data => {
+                    displaySavedEntries(data.entries || []);
+                });
+        }
+
+        function displaySavedEntries(entries) {
+            savedListEl.innerHTML = "";
+            if (!entries.length) {
+                savedListEl.innerHTML = "<div class='empty-state'><i class='fas fa-inbox'></i><p>No saved entries</p></div>";
+                return;
+            }
+            entries.forEach(e => {
+                const d = document.createElement("div");
+                d.className = "saved-item";
+                const q = escapeHtml(e.question || "");
+                const a = escapeHtml(e.answer || "");
+                d.innerHTML = `
+                    <div class="saved-question">${q}</div>
+                    <div class="saved-answer">${a}</div>
+                    <div class="saved-actions">
+                        <button class="use-btn" data-path="${escapeHtml(e.path || '')}">
+                            <i class="fas fa-play"></i> Use
+                        </button>
+                    </div>
+                `;
+                const btn = d.querySelector("button");
+                btn.addEventListener("click", () => {
+                    addUserMessage(e.question);
+                    addNormalBotAnswer(e.answer);
+                    listModal.classList.add("hidden");
+                });
+                savedListEl.appendChild(d);
+            });
+        }
+
+        // Recommendation functionality
+        recBtn.addEventListener("click", async () => {
+            const text = recInput.value.trim();
+            if (!text) return;
+            
+            const res = await fetch("/recommend", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text })
+            });
+            const data = await res.json();
+            
+            if (data.ok) {
+                const suggestions = data.suggestions || [];
+                if (!suggestions.length) {
+                    addBotMessage("<div class='info-message'><i class='fas fa-info-circle'></i> No saved Q&A matches found.</div>");
+                } else {
+                    suggestions.forEach(s => {
+                        addBotMessage(`
+                            <div class="suggestion">
+                                <div class="suggestion-question"><strong>${escapeHtml(s.question)}</strong></div>
+                                <div class="suggestion-folder"><i class="fas fa-folder"></i> ${escapeHtml(s.folder || '')}</div>
+                                <div class="suggestion-answer">${escapeHtml(s.answer || '')}</div>
+                                <div class="suggestion-actions">
+                                    <button class="use-suggestion-btn">
+                                        <i class="fas fa-play"></i> Use
+                                    </button>
+                                </div>
+                            </div>
+                        `);
+                    });
+                    
+                    document.querySelectorAll(".use-suggestion-btn").forEach(b => {
+                        b.addEventListener("click", (ev) => {
+                            const box = ev.target.closest(".suggestion");
+                            const q = box.querySelector(".suggestion-question strong").textContent;
+                            const a = box.querySelector(".suggestion-answer").textContent;
+                            addUserMessage(q);
+                            addNormalBotAnswer(a);
+                        });
+                    });
+                }
+            } else {
+                addBotMessage("<div class='error-message'><i class='fas fa-exclamation-triangle'></i> Recommendation failed.</div>");
+            }
+        });
+
+        // Send message functionality
+        sendBtn.addEventListener("click", sendMessage);
+        inputEl.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        async function sendMessage() {
+            const v = inputEl.value.trim();
+            if (!v) return;
+            
+            addUserMessage(v);
+            inputEl.value = "";
+            showTyping();
+            
+            try {
+                const resp = await fetch("/ask", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ query: v })
+                });
+                const data = await resp.json();
+                
+                hideTyping();
+                
+                if (!data.ok) {
+                    addBotMessage(`<div class="error-message"><i class="fas fa-exclamation-triangle"></i> Error: ${escapeHtml(data.error || "unknown")}</div>`);
+                    return;
+                }
+                
+                for (const a of data.answers || []) {
+                    if (a.type === "differentiate") {
+                        renderDiffTable(a.left || [], a.right || []);
+                    } else {
+                        let ans = a.answer || "";
+                        if (!ans && a.source === "saved" && a.meta) {
+                            ans = a.meta.answer || "";
+                        }
+                        addNormalBotAnswer(ans);
+                    }
+                }
+            } catch (err) {
+                hideTyping();
+                addBotMessage("<div class='error-message'><i class='fas fa-exclamation-triangle'></i> Network error.</div>");
+            }
+        }
+
+        // Quick action buttons
+        document.querySelectorAll(".quick-btn").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const question = btn.dataset.question;
+                inputEl.value = question;
+                sendMessage();
+            });
+        });
+
+        // Initialize
+        fetch("/list_saved").then(r => r.json()).then(d => {
+            const folders = d.folders || [];
+            saveFolderSelect.innerHTML = "";
+            folders.forEach(f => {
+                saveFolderSelect.insertAdjacentHTML("beforeend", `<option value="${escapeHtml(f)}">${escapeHtml(f)}</option>`);
+            });
+        });
+
+        // Auto-focus input
+        inputEl.focus();
+    </script>
+</body>
+</html>

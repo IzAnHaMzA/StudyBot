@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-03T01:20:28.560182",
+  "tests": {
+    "question_classifier": {
+      "test_cases": 4,
+      "predictions": [
+        {
+          "question": "What is an operating system?",
+          "expected": "definition",
+          "predicted": "explanation",
+          "confidence": 0.8795012499230183,
+          "correct": false
+        },
+        {
+          "question": "Differentiate between process and thread",
+          "expected": "differentiation",
+          "predicted": "explanation",
+          "confidence": 0.9860782003341404,
+          "correct": false
+        },
+        {
+          "question": "List the types of operating systems",
+          "expected": "listing",
+          "predicted": "explanation",
+          "confidence": 0.4582249691340059,
+          "correct": false
+        },
+        {
+          "question": "Explain process scheduling algorithms",
+          "expected": "explanation",
+          "predicted": "explanation",
+          "confidence": 0.9161834634920354,
+          "correct": true
+        }
+      ],
+      "accuracy": 0.25
+    },
+    "answer_evaluator": {
+      "test_cases": 2,
+      "predictions": [
+        {
+          "question": "What is an operating system?",
+          "answer": "An operating system is system software that manages computer hardware and software resources.",
+          "predicted_score": 0,
+          "expected_range": [
+            80,
+            95
+          ],
+          "actual_score": 87.5
+        },
+        {
+          "question": "What is process scheduling?",
+          "answer": "Process scheduling is the method by which processes are assigned to run on the CPU.",
+          "predicted_score": 0,
+          "expected_range": [
+            75,
+            90
+          ],
+          "actual_score": 82.5
+        }
+      ],
+      "mae": 85.0
+    },
+    "content_retriever": {
+      "test_queries": 4,
+      "retrieval_results": [
+        {
+          "query": "process scheduling",
+          "results_count": 3,
+          "avg_similarity": 0.25962828664340404,
+          "top_result": "Q.7 Explain Queuing-diagram representation of process scheduling...."
+        },
+        {
+          "query": "memory management",
+          "results_count": 3,
+          "avg_similarity": 0.4419580588641184,
+          "top_result": "The memory management activities handled by operating system are:..."
+        },
+        {
+          "query": "file systems",
+          "results_count": 3,
+          "avg_similarity": 0.35904052177583384,
+          "top_result": "Domain 2:\n- File C (R)\n- File D (RWX)\n- File E (RW)..."
+        },
+        {
+          "query": "operating system security",
+          "results_count": 3,
+          "avg_similarity": 0.32707437005905343,
+          "top_result": "The system is secure if its resources are used and accessed as proposed under all conditions. Total ..."
+        }
+      ],
+      "avg_similarity": 0.34692530933560245
+    },
+    "difficulty_predictor": {
+      "test_cases": 3,
+      "predictions": [
+        {
+          "question": "What is an operating system?",
+          "expected": "easy",
+          "predicted": "medium",
+          "confidence": 0.99,
+          "correct": false
+        },
+        {
+          "question": "Explain process scheduling algorithms",
+          "expected": "medium",
+          "predicted": "medium",
+          "confidence": 1.0,
+          "correct": true
+        },
+        {
+          "question": "Differentiate between distributed and network operating systems",
+          "expected": "hard",
+          "predicted": "medium",
+          "confidence": 0.94,
+          "correct": false
+        }
+      ],
+      "accuracy": 0.3333333333333333
+    },
+    "system_integration": {
+      "test_question": "What is process scheduling?",
+      "workflow_results": {
+        "classification": {
+          "category": "explanation",
+          "confidence": 0.9860782003341404,
+          "probabilities": {
+            "definition": 0.004996862991444534,
+            "differentiation": 0.00032265606733691837,
+            "listing": 0.9860782003341404,
+            "explanation": 0.008602280607078404
+          }
+        },
+        "difficulty": {
+          "difficulty": "medium",
+          "confidence": 1.0,
+          "probabilities": {
+            "easy": 0.0,
+            "medium": 1.0
+          }
+        },
+        "content_retrieval": {
+          "results_count": 3,
+          "top_similarity": 0.43795721287142836
+        },
+        "answer_evaluation": {
+          "error": "Model not trained"
+        }
+      },
+      "integration_success": true
+    }
+  }
+}

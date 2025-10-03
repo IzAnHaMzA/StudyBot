@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-10-03T01:20:07.022923",
+  "results": {
+    "question_classifier": {
+      "accuracy": 0.96875,
+      "precision": 0.9384765625,
+      "recall": 0.96875,
+      "f1_score": 0.9533730158730158,
+      "classification_report": "              precision    recall  f1-score   support\n\n explanation       0.97      1.00      0.98        31\n     listing       0.00      0.00      0.00         1\n\n    accuracy                           0.97        32\n   macro avg       0.48      0.50      0.49        32\nweighted avg       0.94      0.97      0.95        32\n",
+      "confusion_matrix": [
+        [
+          31,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "content_retriever": {
+      "status": "trained",
+      "chunks": 339
+    },
+    "difficulty_predictor": {
+      "accuracy": 0.96875,
+      "precision": 0.9384765625,
+      "recall": 0.96875,
+      "f1_score": 0.9533730158730158,
+      "classification_report": "              precision    recall  f1-score   support\n\n        easy       0.00      0.00      0.00         1\n      medium       0.97      1.00      0.98        31\n\n    accuracy                           0.97        32\n   macro avg       0.48      0.50      0.49        32\nweighted avg       0.94      0.97      0.95        32\n"
+    }
+  }
+}

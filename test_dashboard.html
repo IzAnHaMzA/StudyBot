@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Study Bot - ML API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .result {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #0056b3; }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .urls {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .urls a {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .urls a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 OS Study Bot - ML API Test</h1>
+        
+        <div class="urls">
+            <h3>🌐 Available URLs:</h3>
+            <a href="http://127.0.0.1:5002/ml/dashboard" target="_blank">ML Dashboard</a>
+            <a href="http://127.0.0.1:5002/ml/status" target="_blank">API Status</a>
+            <a href="http://127.0.0.1:5002/ml/performance" target="_blank">Performance Metrics</a>
+        </div>
+
+        <div class="test-section">
+            <h3>1️⃣ System Status</h3>
+            <button onclick="testStatus()">Check Status</button>
+            <div id="statusResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>2️⃣ Question Type Prediction</h3>
+            <input type="text" id="questionInput" placeholder="Enter a question..." value="What is an operating system?">
+            <button onclick="testQuestionType()">Predict Type</button>
+            <div id="questionTypeResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>3️⃣ Difficulty Prediction</h3>
+            <input type="text" id="difficultyInput" placeholder="Enter a question..." value="Explain process scheduling algorithms">
+            <button onclick="testDifficulty()">Predict Difficulty</button>
+            <div id="difficultyResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>4️⃣ Content Retrieval</h3>
+            <input type="text" id="contentInput" placeholder="Enter search query..." value="process scheduling">
+            <button onclick="testContentRetrieval()">Find Content</button>
+            <div id="contentResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>5️⃣ Comprehensive Prediction</h3>
+            <input type="text" id="comprehensiveInput" placeholder="Enter a question..." value="What is memory management?">
+            <button onclick="testComprehensive()">Get All Predictions</button>
+            <div id="comprehensiveResult" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>6️⃣ Answer Score Prediction</h3>
+            <input type="text" id="answerQuestionInput" placeholder="Question..." value="What is an operating system?">
+            <textarea id="answerInput" placeholder="Student answer..." rows="3">An operating system is system software that manages computer hardware and software resources.</textarea>
+            <button onclick="testAnswerScore()">Predict Score</button>
+            <div id="answerResult" class="result"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://127.0.0.1:5002/ml';
+
+        async function makeRequest(url, method = 'GET', data = null) {
+            try {
+                const options = {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                };
+                
+                if (data) {
+                    options.body = JSON.stringify(data);
+                }
+                
+                const response = await fetch(url, options);
+                const result = await response.json();
+                return { success: true, data: result, status: response.status };
+            } catch (error) {
+                return { success: false, error: error.message };
+            }
+        }
+
+        function displayResult(elementId, result) {
+            const element = document.getElementById(elementId);
+            if (result.success) {
+                element.className = 'result success';
+                element.textContent = JSON.stringify(result.data, null, 2);
+            } else {
+                element.className = 'result error';
+                element.textContent = `Error: ${result.error}`;
+            }
+        }
+
+        async function testStatus() {
+            const result = await makeRequest(`${API_BASE}/status`);
+            displayResult('statusResult', result);
+        }
+
+        async function testQuestionType() {
+            const question = document.getElementById('questionInput').value;
+            const result = await makeRequest(`${API_BASE}/predict/question-type`, 'POST', { question });
+            displayResult('questionTypeResult', result);
+        }
+
+        async function testDifficulty() {
+            const question = document.getElementById('difficultyInput').value;
+            const result = await makeRequest(`${API_BASE}/predict/difficulty`, 'POST', { question });
+            displayResult('difficultyResult', result);
+        }
+
+        async function testContentRetrieval() {
+            const query = document.getElementById('contentInput').value;
+            const result = await makeRequest(`${API_BASE}/retrieve/content`, 'POST', { query, top_k: 3 });
+            displayResult('contentResult', result);
+        }
+
+        async function testComprehensive() {
+            const question = document.getElementById('comprehensiveInput').value;
+            const result = await makeRequest(`${API_BASE}/predict/comprehensive`, 'POST', { question });
+            displayResult('comprehensiveResult', result);
+        }
+
+        async function testAnswerScore() {
+            const question = document.getElementById('answerQuestionInput').value;
+            const answer = document.getElementById('answerInput').value;
+            const result = await makeRequest(`${API_BASE}/predict/answer-score`, 'POST', { question, answer });
+            displayResult('answerResult', result);
+        }
+
+        // Auto-test status on page load
+        window.onload = function() {
+            testStatus();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "id": "a17d74e9-c12a-4f48-b4f0-5e829453cfa6",
+      "question": "UNIT 1  0.1 What is operating system?",
+      "answer": "Bot:• QUESTIONSUNIT 1 0.1 What is operating system?• 1.1.1.• 1.• 1.• 1.• 0.2 What is the need of operating system?• 0.33 Explain implementation of least recently used page replacement algorithm using countersUNIT 5 Q.1 What do you mean by file and file system?• Operating system sita idle and wait in case if there are no processes to execute, no 1/0 devices to offer service and there is no any user to whom response is to be given.Reference: (from syllabus)Save this Q&A",
+      "folder": "models",
+      "path": "C:\\Users\\User\\OneDrive\\Desktop\\OS_BOT\\data\\saved\\models\\a17d74e9-c12a-4f48-b4f0-5e829453cfa6.json",
+      "timestamp": "2025-08-30T08:57:28.671592Z"
+    },
+    {
+      "id": "a3cf65af-6b34-4880-b34b-4d4cb9c88710",
+      "question": "UNIT 1  0.1 What is operating system?",
+      "answer": "Bot:Saved to folder: models",
+      "folder": "default",
+      "path": "C:\\Users\\User\\OneDrive\\Desktop\\OS_BOT\\data\\saved\\default\\a3cf65af-6b34-4880-b34b-4d4cb9c88710.json",
+      "timestamp": "2025-08-30T08:58:28.545948Z"
+    }
+  ]
+}
