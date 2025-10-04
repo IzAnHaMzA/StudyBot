@@ -1,0 +1,71 @@
+# GitHub Pages Configuration for OS Study Bot
+title: "OS Study Bot - AI-Powered Learning Assistant"
+description: "An intelligent AI-powered study assistant for Operating Systems course material"
+url: "https://izanhamza.github.io"
+baseurl: "/StudyBot"
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "IzAnHaMzA"
+twitter:
+  username: izanhamza
+social:
+  name: IzAnHaMzA
+  links:
+    - https://github.com/IzAnHaMzA
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - .git/
+  - .vscode/
+  - .idea/
+  - env/
+  - __pycache__/
+  - *.pyc
+  - *.log
+  - data/
+  - models/
+  - uploads/
+  - history/
+  - knowledge_base/
+  - api_keys_config.json
+  - os_bot.log
+  - ml_training.log
+  - *.zip
+  - *.pkl
+  - *.model
+
+# Include files
+include:
+  - docs/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
