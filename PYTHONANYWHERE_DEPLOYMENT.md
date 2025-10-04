@@ -34,12 +34,27 @@ python3.10 -m venv venv
 source venv/bin/activate
 ```
 
-### 5. Install Dependencies
+### 5. Optimize Disk Space (IMPORTANT for Free Accounts)
 ```bash
-pip install -r requirements.txt
+# Run disk optimization script
+python optimize_disk_space.py
+
+# Or manually clean up:
+rm -rf __pycache__ data/ models/ uploads/ history/ *.log *.zip
 ```
 
-### 6. Configure API Keys
+### 6. Install Dependencies (Use Minimal Version)
+```bash
+# For free accounts, use minimal requirements:
+pip install -r requirements_minimal.txt
+
+# If you still get disk quota errors, install one by one:
+pip install Flask==3.1.2
+pip install google-generativeai==0.8.5
+pip install gunicorn==23.0.0
+```
+
+### 7. Configure API Keys
 ```bash
 nano api_keys_config.json
 ```
@@ -55,13 +70,13 @@ Add your API keys:
   "openai_keys": [
     {
       "name": "Primary", 
-      "api_key": "your_actual_openai_api_key_here"
+       "api_key": "your_actual_openai_api_key_here"
     }
   ]
 }
 ```
 
-### 7. Update WSGI Configuration
+### 8. Update WSGI Configuration
 ```bash
 nano wsgi.py
 ```
@@ -70,7 +85,7 @@ Replace `yourusername` with your actual PythonAnywhere username:
 project_home = '/home/YOUR_USERNAME/StudyBot'
 ```
 
-### 8. Configure Web App
+### 9. Configure Web App
 1. Go to "Web" tab in PythonAnywhere dashboard
 2. Click "Add a new web app"
 3. Choose "Manual configuration"
@@ -80,7 +95,7 @@ project_home = '/home/YOUR_USERNAME/StudyBot'
    - **Working directory**: `/home/YOUR_USERNAME/StudyBot`
    - **WSGI file**: `/home/YOUR_USERNAME/StudyBot/wsgi.py`
 
-### 9. Deploy
+### 10. Deploy
 Click "Reload" button to deploy your application.
 
 ## 🌐 Access Your App
