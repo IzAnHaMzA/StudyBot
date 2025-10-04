@@ -1,0 +1,32 @@
+{
+  "gemini_keys": [
+    {
+      "name": "Primary",
+      "api_key": "your_gemini_api_key_here",
+      "description": "Primary Gemini API key"
+    },
+    {
+      "name": "Secondary", 
+      "api_key": "your_secondary_gemini_api_key_here",
+      "description": "Secondary Gemini API key for backup"
+    }
+  ],
+  "openai_keys": [
+    {
+      "name": "Primary",
+      "api_key": "your_openai_api_key_here",
+      "description": "Primary OpenAI API key"
+    },
+    {
+      "name": "Secondary",
+      "api_key": "your_secondary_openai_api_key_here", 
+      "description": "Secondary OpenAI API key for backup"
+    }
+  ],
+  "settings": {
+    "primary_model": "gemini-2.0-flash-exp",
+    "fallback_model": "gpt-3.5-turbo",
+    "max_tokens": 4000,
+    "temperature": 0.7
+  }
+}

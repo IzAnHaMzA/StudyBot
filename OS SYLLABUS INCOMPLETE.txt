@@ -1,35 +1,12 @@
 QUESTIONS
+UNIT 1 
+0.1 What is operating system?
 
-UNIT 1 TEST QUESTIOS 
+0.2 What is the need of operating system?
 
-Q1)Define operating system and list different types of operating systems.
+0.3 What are different components of operating system?
 
-Q2)State any 2 command line operating system and GUI based Operating system.
-
-Q3)Define System Call and enlist it's types.
-
-Q4)Draw the structure of Unix operating system.
-
-Differentiate between multi tasking and multi programming.
-
-Time sharing systems and real time system 
-
-
-
-Q7)List and Describe any 4 services of Operating systems.
-
-Q8)Explain different components of OS.
-
-Q9)State any 2 features of Linux.
-
-UNITQ.1Q.0
-Q.1 What is operating system?
-
-Q.2 What is the need of operating system?
-
-Q.3 What are different components of operating system?
-
-Q.4 Explain in detail different components of operating system.
+0.4 Explain in detall different components of operating system.
 
 Q.5 What are the different operations of operating system? Explain.
 
@@ -41,123 +18,127 @@ Q.8 What are the different activities carried out in process management?
 
 Q.9 Explain the events responsible for creation of process.
 
-Q.10 What are the different resources in computer system?
+Q. 10 What are the different resources in computer system?
 
 Q.11 Explain resource management of the operating system.
 
-Q.12 What is security and its goals? Explain.
+Q. 12 What is security and its goals? Explain.
 
-Q.13 What is protection? What are the goals of protection?
+Q. 13 What is protection? What are the goals of protection?
 
-Q.14 Write short note on timer.
+Q. 14 Write short note on timer.
 
-Q.15 Explain Trojan horses and trap doors
+Q. 15 Explain Trojan horses and trap doors
 
-Q.16 Explain protection domains with help of example.
+Q. 16 Explain protection domains with help of example.
 
-Q.17 What is access matrix? Explain.
+Q. 17 What is access matrix? Explain.
 
 Q.18 What are the different views of operating system? Explain.
 
-Q.19 Explain user's view and system view of operating system.
+Q. 19 Explain user's view and system view of operating system.
 
-Q.20 What are the different types of operating systems?
+Q. 20 What are the different types of operating systems?
 
-Q.21 Explain batch operating systems.
+Q. 21 Explain batch operating systems.
 
-Q.22 Explain Multiprogrammed Operating Systems.
+Q. 22 Explain Multiprogrammed Operating Systems.
 
-Q.23 Explain Time Shared Operating Systems.
+Q. 23 Explain Time Shared Operating Systems.
 
-Q.24 Explain Multiprocessor systems.
+Q. 24 Explain Multiprocessor systems.
 
-Q.25 Explain mainframe operating systems.
+Q. 25 Explain mainframe operating systems.
 
-Q.26 What is distributed systems? Explain.
+Q. 26 What is distributed systems? Explain.
 
-Q.27 Explain distributed operating system.
+Q. 27 Explain distributed operating system.
 
-Q.28 Explain network operating system.
+Q. 28 Explain network operating system.
 
-Q.29 Differentiate between distributed operating system and network operating system.
+Q. 29 Differentiate between distributed operating system and network operating system.
 
-Q.30 What is real time systems? Explain in detail.
+Q. 30 What is real time systems? Explain in detail.
 
-Q.31 What is mobile OS? Explain.
+Q. 31 What is mobile OS? Explain.
 
-Q.32 Explain Android operating system.
+Q. 32 Explain Android operating system.
 
-Q.33 What are design goals of android OS?
+Q. 33 What are design goals of android OS?
 
-Q.34 Explain architecture of android OS.
+Q. 34 Explain architecture of android OS.
 
-Q.35 Explain iOS?
+Q. 35 Explain iOS?
 
-Q.36 Difference between Time sharing System and Real Time System.
+Q. 36 Difference between Time sharing System and Real Time System.
 
-Q.37 Difference between Multiprogramming and Multitasking.
+Q. 37 Difference between Multiprogramming and Multitasking.
 
-Q.38 Write short note on disk operating system.
+Q. 38 Write short note on disk operating system.
 
-Q.39 Explain features of disk operating system.
+Q. 39 Explain features of disk operating system.
 
 Q.40 Explain directory structure of disk operating system.
 
-Q.41 Explain file structure of disk operating system.
+Q. 41 Explain file structure of disk operating system.
 
-Q.42 What are Internal and External Commands in DOS?
+Q. 42 What are Internal and External Commands in DOS?
 
-Q.43 Explain history of UNIX in short.
+Q. 43 Explain history of UNIX in short.
 
-Q.44 What are the goals of UNIX OS?
+Q. 44 What are the goals of UNIX OS?
 
 Q.45 Explain interfaces to UNIX OS.
 
-Q.46 Explain UNIX shell and utility programs.
+Q. 46 Explain UNIX shell and utility programs.
 
-Q.47 Explain Information, File, Process/Memory Management in UNIX.
+Q. 47 Explain Information, File, Process/Memory Management in UNIX.
 
-Q.48 Explain history of Windows OS.
+Q. 48 Explain history of Windows OS.
 
-Q.49 What are Microsoft's design goals for Windows OS? Explain.
+Q. 49 What are Microsoft's design goals for Windows OS? Explain.
 
-Q.50 Explain different system components of Windows OS.
+Q. 50 Explain different system components of Windows OS.
 
-Q.51 Explain history of Linux OS.
+Q. 51 Explain history of Linux OS.
 
-Q.52 Explain features of Linux OS.
+Q. 52 Explain features of Linux OS.
 
-Q.53 Explain components of Linux OS.
+Q. 53 Explain components of Linux OS.
 
-Q.54 Differentiate between MS DOS and Windows.
+Q. 54 Differentiate between MS DOS and Windows.
 
-Q.55 Differentiate between GUI and CUI.
+Q. 55 Differentiate between GUI and CUI.
 
-Q.56 What are the advantages of Linux/UNIX over Windows? Explain.
+Q. 56 What are the advantages of Linux/UNIX over Windows? Explain.
 
-Q.57 Explain in brief services provided by operating system.
+Q. 57 Explain in brief services provided by operating system.
 
-Q.58 What is system calls? Explain its categories.
+Q. 58 What is system calls? Explain its categories.
 
-Q.59 Explain the different types of system calls.
+Q. 59 Explain the different types of system calls.
 
-Q.60 Give some examples of system calls with explanation.
+Q. 60 Give some examples of system calls with explanation.
 
-Q.61 What are the different component of operating system? Explain.
+Q. 61 What are the different component of operating system? Explain.
 
-Q.62 Explain in short process management component of operating system.
+Q. 62 Explain in short process management component of operating system.
 
-Q.63 Explain in short main memory management component of operating system.
+Q. 63 Explain in short main memory management component of operating system.
 
-Q.64 Explain in short storage management component of operating system.
+Q. 64 Explain in short storage management component of operating system.
 
-Q.65 Explain in short file management component of operating system.
+Q. 65 Explain in short file management component of operating system.
 
-Q.66 Explain in short I/O management component of operating system.
+Q. 66 Explain in short I/O management component of operating system.
 
-Q.67 Explain in short secondary storage management component of operating system.
+Q. 67 Explain in short secondary storage management component of operating system.
 
-UNITQ.2
+
+
+
+
+UNIT 2
 
 Q.1What is process?
 
@@ -176,29 +157,43 @@ Q.8 Explain different types of schedulers.
 
 Q.9 Differentiate between Long-term, short-term and medium-term schedulers.
 
-Q.10 What is context switch ?
+Q. 10 What is context switch ?
 
 Q.11 Explain the principle of concurrency. Give example.
 
-Q.12 Explain inter-process communication.
+Q. 12 Explain inter-process communication.
 
-Q.13 Explain how shared memory is used for inter-process communication.
+Q. 13 Explain how shared memory is used for inter-process communication.
 
-Q.14 Explain how message passing is used for inter-process communication.
+Q. 14 Explain how message passing is used for inter-process communication.
 
-Q.15 What is thread? Explain its advantages over process.
+Q. 15 What is thread? Explain its advantages over process.
 
-Q.16 Differentiate between process and thread.
+Q. 16 Differentiate between process and thread.
 
-Q.17 Explain user level and kernel level threads with advantages and disadvantages.
+Q. 17 Explain user level and kernel level threads with advantages and disadvantages.
 
-Q.18 What is multithreading?
+Q. 18 What is multithreading?
 
-Q.19 Explain different types of multithreading models.
+Q. 19 Explain different types of multithreading models.
 
-Q.20 Explain the use of following commands with syntax and output :ps, walt, sleep, kill, exit
+Q. 20 Explain the use of following commands with syntax and output :ps, walt, sleep, kill, exit
 
-UNITQ.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UNIT 3
 
 Q.1 What are the objectives of scheduling?
 
@@ -218,39 +213,58 @@ Q.8 Explain Shortest Remaining Time Next (SRTN) scheduling algorithm with exampl
 
 Q.9 Explain Round Robin (RR) scheduling algorithm with example.
 
-Q.10 Explain Multilevel Queue Scheduling algorithm with example.
+Q. 10 Explain Multilevel Queue Scheduling algorithm with example.
 
-Q.11 What is deadlock?
+Q. 11 What is deadlock?
 
-Q.12 Explain deadlock with system model.
+Q. 12 Explain deadlock with system model.
 
-Q.13 Explain necessary condition to occur the deadlock.
+Q. 13 Explain necessary condition to occur the deadlock.
 
 Q.14 What is resource allocation graph? Explain with example.
 
-Q.15 Explain deadlock prevention in detail.
+Q. 15 Explain deadlock prevention in detail.
 
-Q.16 What are the necessary conditions for deadlock situation to arise ?
+Q. 16 What are the necessary conditions for deadlock situation to arise ?
 
-Q.17 How you can prevent deadlock by preventing circular wait condition?
+Q. 17 How you can prevent deadlock by preventing circular wait condition?
 
-Q.18 Explain safe state and safe sequence with example for deadlock avoidance.
+Q. 18 Explain safe state and safe sequence with example for deadlock avoidance.
 
-Q.19 Explain deadlock avoidance.
+Q. 19 Explain deadlock avoidance.
 
-Q.20 Explain Resource-Allocation Graph Algorithm.
+Q. 20 Explain Resource-Allocation Graph Algorithm.
 
-Q.21 Explain Bankers algorithm for deadlock avoidance with suitable example.
+Q. 21 Explain Bankers algorithm for deadlock avoidance with suitable example.
 
-Q.22 Explain Resource-Request Algorithm.
+Q. 22 Explain Resource-Request Algorithm.
 
-Q.23 Explain various steps in safety algorithm deadlock avoidance.
+Q. 23 Explain various steps in safety algorithm deadlock avoidance.
 
-UNITQ.4Q.01 Why it is necessary to manage the memory? explainQ.0Q.2 Explain mono programming concept used in early computer systemsQ.0Q.3 What are the benefits of multiprogramming? ExplainQ.04 Explain multiprogramming with Fixed and Variable Partitions techniques.
 
-Q.5 What are the different operations of operating system? ExplainQ.0Q.6 Explain contiguous allocation of memoryQ.0Q.7 Differentiate between fixed and variable partition in contiguous memory allocation.
 
-Q.8 What is fragmentation ? Explain internal and external fragmentation.
+
+
+
+
+
+
+UNIT 4
+01 Why it is necessary to manage the memory? explain
+
+0.2 Explain mono programming concept used in early computer systems.
+
+0.3 What are the benefits of multiprogramming? Explain.
+
+04 Explain multiprogramming with Fixed and Variable Partitions techniques.
+
+Q.5 What are the different operations of operating system? Explain.
+
+0.6 Explain contiguous allocation of memory.
+
+0.7 Differentiate between fixed and variable partition in contiguous memory allocation.
+
+Q.8 What is fragmentation ? Explain internal and extemal fragmentation.
 
 Q.9 Explain difference between internal and external fragmentation.
 
@@ -258,40 +272,74 @@ Q.10 Explain process of compaction with the example.
 
 Q.11 How to solve the problem of external fragmentation?
 
-Q.12 Explain different Free Space Management Techniques.
+Q. 12 Explain different Free Space Management Techniques.
 
 Q.13 Explain bit-map and linked list Free Space Management Techniques. State advantages and Disadvantages.
 
 Q.14 Explain virtual memory concept.
 
-Q.15 Explain paging concept.
+Q. 15 Explain paging concept.
 
-Q.16 Explain the paging model of physical and logical memoryQ.0Q.17 Explain operation of paging hardware.
+Q. 16 Explain the paging model of physical and logical memory.
 
-Q.18 Explain paging with example.
+0.17 Explain operation of paging hardware.
 
-Q.19 Explain how Memory Protection and Sharing supported by pagingQ.0Q.20 Explain segmentation with the help of example.
+Q. 18 Explain paging with example.
+
+Q.19 Explain how Memory Protection and Sharing supported by paging.
+
+0.20 Explain segmentation with the help of example.
 
 Q.21 Differentiate between paging and segmentation.
 
-Q.22 How virtual memory concept is implemented by demand paging ? Explain.
+Q. 22 How virtual memory concept is implemented by demand paging ? Explain.
 
-Q.23 Write short note on demand paging.
+Q. 23 Write short note on demand paging.
 
-Q.24 What are the advantages and disadvantages of demand paging?
+Q. 24 What are the advantages and disadvantages of demand paging?
 
-Q.25 Under what circumstances do page fault occurs. Describe action taken by operating system when page fault occurs
+Q. 25 Under what circumstances do page fault occurs. Describe action taken by operating system when page fault occurs
 
 Q.25 Give steps that are involved in page fault occurrence.
 
-Q.27 What is Belady's anomaly ? Which page replacement algorithm suffer from such anomaly ?
+Q. 27 What is Belady's anomaly ? Which page replacement algorithm suffer from such anomaly ?
 
-Q.28 Explain various page replacement algorithms with exampleQ.0Q.29 How optimal page replacement algorithm works? Explain with exampleQ.0Q.30 How FIFO page replacement algorithm works? Explain with exampleQ.0Q.31 How least recently used page replacement algorithm works? Explain with example.
+0.28 Explain various page replacement algorithms with example.
 
-Q.32 Explain implementation of least recently used page replacement algorithm using stackQ.0Q.33 Explain implementation of least recently used page replacement algorithm using counters
+0.29 How optimal page replacement algorithm works? Explain with example.
 
-UNITQ.5 
-Q.1 What do you mean by file and file system? ExplainQ.0Q.2 Explain the file concept in operating systemQ.0Q.3 Define the file systemQ.0Q.4 Explain different file attributes.
+0.30 How FIFO page replacement algorithm works? Explain with example.
+
+0.31 How least recently used page replacement algorithm works? Explain with example.
+
+Q.32 Explain implementation of least recently used page replacement algorithm using stack.
+
+0.33 Explain implementation of least recently used page replacement algorithm using counters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UNIT 5 
+Q.1 What do you mean by file and file system? Explain.
+
+0.2 Explain the file concept in operating system.
+
+0.3 Define the file system.
+
+0.4 Explain different file attributes.
 
 Q.5 What are the different file operations over a file? Explain them.
 
@@ -315,10 +363,35 @@ Q.14 Describe directory structure in detail.
 
 Q.15 Explain physical structure of hard disk.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Syllabus 
 OPERATING SYSTEM
-Course Code: Q.315319
-Semester: Q.5 (K Scheme)
+Course Code: 315319
+Semester: 5 (K Scheme)
 Programme Names: Artificial Intelligence, Artificial Intelligence & Machine Learning, Cloud Computing & Big Data, Computer Technology, Computer Engineering, Computer Science & Engineering, Data Sciences, Computer Hardware & Maintenance, Information Technology, Computer Science & IT, Computer Science
 Programme Codes: AI / AN / BD / CM / CO / CW / DS / HA / IF / IH / SE
 ________________________________________
@@ -337,15 +410,15 @@ III. COURSE LEVEL LEARNING OUTCOMES (COs)
 •	CO5: Apply techniques for effective File Management in an Operating System.
 ________________________________________
 IV. TEACHING-LEARNING & ASSESSMENT SCHEME
-•	Course Code: Q.315319
+•	Course Code: 315319
 •	Course Title: Operating System (OSY)
 •	Category: DSC
-•	Credits: Q.5
-•	Contact Hours/Week: Q.9 (Q.5 CL + Q.2 TL + Q.2 LL)
+•	Credits: 5
+•	Contact Hours/Week: 9 (5 CL + 2 TL + 2 LL)
 •	Assessment Scheme:
-o	Theory: Q.100 Marks (FA-THQ.30, SA-THQ.70)
-o	Practical: Q.75 Marks (FA-PRQ.25, SA-PRQ.25, SLAQ.25)
-o	Total: Q.175 Marks
+o	Theory: 100 Marks (FA-TH 30, SA-TH 70)
+o	Practical: 75 Marks (FA-PR 25, SA-PR 25, SLA 25)
+o	Total: 175 Marks
 ________________________________________
 V. THEORY LEARNING OUTCOMES & CONTENT
 Unit I – OS Services & Components
@@ -391,15 +464,15 @@ VIII. REQUIRED LAB EQUIPMENT
 •	Computer system with Linux/Ubuntu/CentOS or equivalent
 ________________________________________
 IX. SPECIFICATION TABLE
-•	Unit I: Q.14 Marks
-•	Unit II: Q.14 Marks
-•	Unit III: Q.16 Marks
-•	Unit IV: Q.16 Marks
-•	Unit V: Q.10 Marks
-•	Total: Q.70 Marks
+•	Unit I: 14 Marks
+•	Unit II: 14 Marks
+•	Unit III: 16 Marks
+•	Unit IV: 16 Marks
+•	Unit V: 10 Marks
+•	Total: 70 Marks
 ________________________________________
 X. ASSESSMENT
-•	Formative: Process (Q.60%), Product (Q.40%)
+•	Formative: Process (60%), Product (40%)
 •	Summative: End Semester Exam, Lab performance, Viva-voce
 ________________________________________
 XI. CO–PO MATRIX
@@ -409,26 +482,63 @@ XI. CO–PO MATRIX
 •	CO4 → PO1, PO2, PO3, PO4, PO5, PO7
 •	CO5 → PO1, PO2, PO3, PO4, PO5, PO7
 ________________________________________
-XII. SUGGESTED BOOKSQ.1.	Dhananjay M. Dhamdhere – Operating System: A Concept-Based ApproachQ.2.	William Stallings – Operating Systems: Internals and Design PrinciplesQ.3.	Richard Petersen – Linux The Complete ReferenceQ.4.	Richard Blum – Linux Command Line and Shell ScriptingQ.5.	Silberschatz & Peterson – Operating System Concepts
+XII. SUGGESTED BOOKS
+1.	Dhananjay M. Dhamdhere – Operating System: A Concept-Based Approach
+2.	William Stallings – Operating Systems: Internals and Design Principles
+3.	Richard Petersen – Linux The Complete Reference
+4.	Richard Blum – Linux Command Line and Shell Scripting
+5.	Silberschatz & Peterson – Operating System Concepts
 ________________________________________
 XIII. LEARNING RESOURCES
 •	NPTEL: Introduction to Operating Systems
 •	GeeksforGeeks: Processes in Linux/Unix
 •	Ubuntu Desktop Installation Guide
 •	RedHat Linux download portal
-•	DigitalOcean tutorials on Linux commandsQ.1-Q.1Q.1.Operating System Services and Components
+•	DigitalOcean tutorials on Linux commands
 
-SyllabusQ.1Q.1 Operating System: concept, functionsQ.1Q.2 Different types of Operating System: Batch Operating System, Multi-programmed. Time Shared Operating System. Multiprocessor System, Distributed System, Real Time System, Mobile OS (Android OS)
 
-Q.1Q.3 Command line based Operating System: DOS UNIX GUT based Operating System: WINDOWS.INUX, MAC OSQ.1Q.4 Different Services of Operating System, System Calls: Concept, types of system callsQ.15 Operating System Components: Process Management, Main Memory Management, File Management, Q.10 Management, Secondary Storage ManagementQ.1Q.1 Introduction to Operating System
 
-OPERATING SYSTEM SERVICES AND COMPONENTS
 
-1.1 INTRODUCTION TO OPERATING SYSTEM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-1
+1.Operating System Services and Components
+
+Syllabus
+
+1.1 Operating System: concept, functions
+
+1.2 Different types of Operating System: Batch Operating System, Multi-programmed. Time Shared Operating System. Multiprocessor System, Distributed System, Real Time System, Mobile OS (Android OS)
+
+1.3 Command line based Operating System: DOS UNIX GUT based Operating System: WINDOWS.INUX, MAC OS
+
+1.4 Different Services of Operating System, System Calls: Concept, types of system calls
+
+15 Operating System Components: Process Management, Main Memory Management, File Management, 10 Management, Secondary Storage Management
+
+1.1 Introduction to Operating System
 
 An operating system is system software which manages, operates and communicates with the computer hardware and software.
 
-To complete the execution, a user program needs many resources.
+To complete the execution user program, need many resources
 
 The main job of the operating system is to provide resources and services to the user program. So without operating system, a computer would be useless.
 
@@ -442,132 +552,174 @@ Basically operating systems perform tasks, for example identifying input from th
 
 The heart of a computer system is a processing unit called CPU.
 
-User's program should get the processing unit to complete the execution and computer system should offer the service to allocate processing unit to user's program.
+User's program should get the processing unit to complete the execution and computer system should offer the service to allocate processing unit to users program.
 
-The operating system allocates memory to user program as per need. In the same way, user programs interact with the other user programs through devices like keyboard, or a mouse or even a joystick.
+The operating system allocates memory to user program as per need. In the same way, user programs interact with the other user programs through devices like key board, or a mouse or even a joy stick.
 
 1.1.2 Components of Operating System
 
-QUESTIONS:
-- List components of OS. Explain process management in detail.
-- Explain different components of Operating system.
+Q. List components of OS. Explain process management in detail.
 
-Pg1END
+W-19
 
-1.2 OPERATING SYSTEM SERVICES AND COMPONENTS
+Q. Explain different components of Operating system.
 
-Operating system consists of many components. Each component of the operating system has its own set of defined inputs and outputs. Different components of OS perform precise tasks to offer the overall functionality of the operating system. The most important functions of the operating system are as follows:
+W-22, S-23
+
+
+Pg1END.
+
+Operating System
+
+1-2
+
+Operating System Services and Components
+
+Operating system consists of many components. Each component of the operating system has its own set of
+
+defined inputs and outputs. Different components of 05 perform precise tasks to offer the overall functionality of the operating system. The most important functions of the operating system are as follows:
 
 1. Process Management
+
 2. Memory Management
+
 3. File Management
+
 4. Device Management
+
 5. Protection and Security
+
 6. User Interface or Command Interpreter
+
 7. Booting the Computer
-8. Performs basic computer tasks
 
-1.2.1 Process Management
+Performs basic computer tasks
 
-The process management activities involve:
+1. Process Management
 
-1. To provide control access to shared resources like file, memory, I/O and CPU.
-2. Control the execution of user applications.
-3. Creation, execution and deletion of user and system processes.
-4. Resume a process execution or cancel it.
-5. Scheduling of a process.
-6. Synchronization, interprocess communication and deadlock handling for processes.
+The process management activities Involves:
 
-1.2.2 Memory Management
+(1) To provide control access to shared resources like file, memory, 1/0 and CPU.
+
+(i) Control the execution of user applications.
+
+(i) Creation, execution and deletion of user and system processes.
+
+(iv) Resume a process execution or cancel it.
+
+(v) Scheduling of a process.
+
+(vi) Synchronization, interprocess communication and deadlock handling for processes.
+
+2. Memory Management
 
 The memory management activities handled by operating system are:
 
-1. Allocation of memory to the processes.
-2. Free the memory from process after completion of execution.
-3. Reallocation of memory to a program after used block becomes free.
-4. Keep track of memory usage by the process.
+(1) Allocation of memory to the processes.
 
-1.2.3 File Management
+(ii) Free the memory from process after completion of execution.
+
+(iii) Reallocation of memory to a program after used block becomes free.
+
+(iv) Keep track of memory usage by the process.
+
+3. File Management
 
 The file management activities of operating system consist of:
 
-1. Creation and deletion of files and directories.
-2. Provide access to files and allocation of storage space for files.
-3. Maintain back-up of files.
-4. File Security.
+(1) Creation and deletion of files and directories.
 
-1.2.4 Device Management
+(ii) Provide access to files and allocation of storage space for files.
 
-The device management tasks include:
+(iii) Maintain back-up of files.
 
-1. To open, close and write device drivers.
-2. Communicate, control and monitor the device driver.
+(iv) File Security.
 
-1.2.5 Protection and Security
+4. Device Management
+
+The device management tasks includes:
+
+(1) To open, close and write device drivers.
+
+(ii) Communicate, control and monitor the device driver.
+
+5. Protection and Security
 
 The resources of the system are protected by the operating system. User authentication, file attributes such as read, write, encryption and back-up of data are used by operating system to give necessary protection.
 
-Pg2END
 
-1.2.6 User Interface or Command Interpreter
+Pg2END.
 
-The role of operating system is to work as interface between the user and hardware of the computer. This Interface is provided by operating system through set of commands or it is a Graphical User Interface (GUI).
+1-3
 
-1.2.7 Booting the Computer
+Operating System Services and Components
+
+6. User Interface or Command Interpreter
+
+The role of operating system is to work as interface between the user and hardware of the computer. This Interface is provided by operating system through set of commands or it is a Graphical User Interface (GUT).
+
+7. Booting the Computer
 
 The process of starting or restarting the computer is known as booting. If computer is switched off completely and if turned on then it is called cold booting. A warm booting is the process of using the operating system to restart the computer.
 
-1.2.8 Performs Basic Computer Tasks
+8. Performs basic computer tasks
 
-The different peripheral devices such as the mouse, keyboard and printers are managed by operating system. Nowadays most operating systems are plug and play which means any device will automatically be detected and configured without any user interference.
+The different peripheral devices such as the mouse, kayboard and printers are managed by operating system. Now days most operating systems are plug and play which means any device will automatically be detected and configured without any user interference.
 
-1.3 Operations of Operating System
+1.1.3 Operations of Operating System
 
-Modern operating systems are Interrupt driven. Operating system sits idle and waits in case if there are no processes to execute, no I/O devices to offer service and there is no user to whom response is to be given.
+Modern operating systems are Interrupt driven. Operating system sita idle and wait in case if there are no processes to execute, no 1/0 devices to offer service and there is no any user to whom response is to be given.
 
-In this case operating system just waits for something to happen. When Interrupt or trap occurs then events are signaled.
+In this case operating system just waits for something to happen. When Interrupt or trap occurs then events are signalled
 
 If abnormal condition arises in system during program execution, then it is detected by CPU is called trap.
 
-Trap occurs exactly at same point of time of program execution. Software interrupts are trap or exceptions. Example is division by zero.
+Trap occur exactly same point of time of program execution. Software interrupts are trap or exceptions. Example is division by zero.
 
-After receiving an interrupt, operating system carries out some housekeeping so that it can resume its computation once it is through servicing the interrupt.
+After receiving an interrupt, operating system carry out some housekeeping so that it can resume its computation once it is through servicing the interrupt.
 
-After this a searching is carried out in the interrupt vector or Interrupt table.
+After this a searching is carried out in the interrupt vector or Interrupt table
 
 This table remains in kernel-memory space and includes address of the code in the device driver that is to service the Interrupt.
 
 The Interrupt handler is then executed. When the handler finishes, control of the CPU is returned to the code that was executing before the interrupt occurred.
 
-Interrupt routine (ISS) deals with Interrupts.
+Interrupt routine (ISS) deal with Interrupts.
 
-The design of the operating system should be in such a way that one erroneous or malicious program should not affect other programs.
+The design of the operating system should be in such a way that one erroneous or malicious program should affect other programs.
 
-1.3.1 Dual Mode Operation
+1.1.3(A) Dual Mode Operation
 
-There are two modes of operating system:
+There are two modes of operating system
 
-The majority of CPUs support at least two modes of operation, i.e., kernel mode and user mode.
+The majority of CPUs support at least two modes of operation Le, kernel mode and user mode.
 
-In kernel mode, all instructions are allowed to be executed, and the entire set of all registers is accessible throughout the execution.
+In kernel mode, all instructions are allowed to be executed, and the entire and set of all registers is accessible throughout the execution.
 
 On the contrary to this, in user mode, memory and register access is restricted. The CPU gets switched to kernel mode while executing operating system code.
 
 The only means to switch from user mode to kernel mode is through system calls as implemented by the operating system.
 
-Hardware contains mode bit which indicates kernel mode when 0 and user mode when set to 1. When user application is running then system is in user mode.
+Hardware contain mode bit which Indicate kernel mode when 0 and user mode when set to 1. When user application is running then system is in user mode.
 
-Pg3END
 
-When user application requests the service from operating system then transition from user mode to kernel mode takes place.
+Pg3END.
 
-During booting of the system, hardware is in kernel mode. Once the operating system is loaded and starts executing user application, system goes in user mode.
 
-Due to dual mode operation, protection from misbehaving users is achieved. This protection can be provided by allowing the execution of privileged instructions in kernel mode only.
 
-Any attempt to execute these privileged instructions in user mode causes trap to operating system.
+1-4
 
-The instruction to enter in user mode, Instructions for I/O control, timer management, and Interrupt management are some of the examples of privileged instructions.
+Operating System Services and Components
+
+When user application requests the service from operating system then transition from user made to kernel mode take place.
+
+During booting of the system, hardware is in kernel mode. Once the operating system is loaded and start executing user application system goes in user mode.
+
+Due to dual node operation, protection from misbehaving users is achieved. This protection can be provided by allowing the execution of privileged instructions in kernel mode only,
+
+Any attempt to execute these privileged instructions in user mode cause trap to operating system.
+
+The instruction to enter in user mode, Instructions for 1/0 control, timer management, and Interrupt management are some of the examples of privileged instructions.
 
 From user mode, control is switched to operating system through interrupt, a trap, or a system call.
 
@@ -577,45 +729,53 @@ System call is the call for the operating system to perform some task on behalf 
 
 Therefore system calls make up the interface between processes and the operating system.
 
-There are two ways for the process to switch from the user mode to the kernel mode:
+There are two ways for the process to switch from the user mode to the kernel mode
 
 One is when a user process explicitly requests to enter in kernel by issuing a system call.
 
 Other is, during the execution of user process kernel can take over to carry out some system housekeeping task.
 
-1.3.2 Timer
+1.1.3(B) Timer
 
 Computer contains crystal clocks containing crystal oscillator, a counter, and a holding register.
 
-A quartz crystal under tension produces a periodic signal of very high accuracy, usually in the range of several hundred megahertz to a few Gigahertz, depending on the crystal chosen.
+A quartz crystal under tension produces a periodic signal of very high accurateness, usually in the range of several hundred megahertz to a few Gigahertz's, depending on the crystal chosen.
 
-By electronic circuitry, this base signal can be multiplied by a small integer to get frequencies up to several gigahertz and more than this.
+By electronic circuitry, this hase signal can be multiplied by a small integer to get frequencies up to several gigahertz and more than this.
 
-Computer contains at least one circuit, which produces synchronizing signal and gives it to many circuits in computer.
+Computer contains at least one circuit, then produce synchronizing signal and given to many circuits in computer.
 
-This synchronizing signal is fed into the counter to make it count down to zero. When the counter gets to zero, it causes an interrupt.
+This synchronizing signal is fed into the counter to make it count down to zero. When the counter gets to zero, it causes an interrupt
 
 In one-shot mode, after the clock is started, holding register value gets copied into the counter and then decrements the counter at each pulse from the crystal.
 
-When the counter value becomes zero, it causes an interrupt and stops until it is explicitly started again by the software.
+When the counter value becomes zeru, it causes an interrupt and stops until it is explicitly started again by the software.
 
-In square-wave mode, after getting to zero and causing the interrupt, the holding register is automatically copied into the counter, and the whole process is repeated again indefinitely.
+In square-wave mode, after getting to zero and causing the interrupt, the holding register is automatically copled into the counter, and the whole process is repeated again indefinitely.
 
 These periodic interrupts are called clock ticks. Every computer has a battery-powered backup clock to save the current time when machine is switched off.
 
 Universal coordinated time is used to synchronize the clocks of the machines.
 
-Operating system ensures to set timer to interrupt before handing over the control to user application.
+Operating system ensures to set timer to interrupt before hand over the control to user application
 
-1.4 Program Management
+1.1.4 Program Management
 
 A program or application under execution is called as process. A process includes the execution context.
 
-A program resides on the disk. On disk it does not require any resources.
+A program resides on the disk. On disk it does require any resources.
 
-Pg4END
 
-A program gets executed in main memory. So it should be transferred from disk to memory. Files etc. To complete execution, program needs many resources and competes for it. These resources are memory, CPU.
+Pg4END.
+1-5
+
+Operating System
+
+Operating System Services and Components
+
+1-5 A program gets executed in main memory. So it should be transferred from disk to memory.
+
+files etc. To complete execution, program needs many resources and competes for it. These resources are memory, CPU,
 
 Now it becomes process. From the computation context point of view, a process is defined by CPU state, memory contents and execution environment.
 
@@ -625,7 +785,7 @@ In multiprogramming, single CPU is shared among many processes.
 
 If many processes remain busy in completing I/O, CPU is allocated to only one process at a given point of time.
 
-Here some policy is required to allocate CPU to process, called as CPU scheduling.
+Here some policy is required to allocate CPU to process, called as CPU scheduling
 
 If multiple users are working on the system, operating system switches the CPU from one user process to other.
 
@@ -639,12 +799,17 @@ Program counter contains address of the instruction from which execution resumes
 
 The process management activities involve:
 
-1. To provide control access to shared resources like file, memory, I/O and CPU.
+1. To provide control access to shared resources like file, memory, 1/0 and CPU.
+
 2. Control the execution of user applications.
+
 3. Creation, execution and deletion of user and system processes.
+
 4. Resume a process execution or cancel it.
+
 5. Scheduling of a process.
-6. Synchronization, interprocess communication and deadlock handling for processes.
+
+6. Synchronization, interposes communication and deadlock handling for processes.
 
 A CPU state is defined by the content of the various registers such as Instruction Register(IR), Program Counter (PC), Stack Pointer (SP) and general purpose registers.
 
@@ -654,273 +819,420 @@ In stack, program local variables are allocated and return values of function ca
 
 Execution environment includes open files, communication channels to other processes etc. Following are the components of the process:
 
-1. The object code that is to be executed.
-2. Resources required by the program to complete the execution.
-3. The data on which program will operate.
-4. Program execution state.
+The object code that is to be executed.
+
+Resources required by the program to complete the execution.
+
+The data on which program will operate.
+
+Program execution state.
 
 Processes are created because of the following four principal events. These are:
 
-1. System Initialization: When an OS is booted, typically several processes are created. Execution of a process creation system call by a running process. Often a running process will issue system calls to create one or more new processes to help it do its job. Creating new processes is particularly useful when the work to be done can easily be formulated in terms of several related, but otherwise independent interacting processes.
+System Initialization: When an OS is booted, typically several processes are created. Execution of a process creation system call by a running process. Often a running process will issue system calls to create one or more new processes to help it do its job. Creating new processes is particularly useful when the work to be done can easily be formulated in terms of several related, but otherwise independent interacting processes.
 
-2. A user request to create a new process: In Interactive systems, users can start a program by typing a command or (double) clicking an icon.
+A user request to create a new process: In Interactive systems, users can start a program by typing a command or (double) clicking an icon.
 
-Pg5END
 
-3. Initiation of a batch job: Here users can submit batch jobs to the system (possibly remotely). When the OS decides that it has the resources to run another job, it creates a new process and runs the next job from the input queue in it.
+Pg 5END.
 
-During the execution, process can create new process by using create process system call. The process which creates new process is called a parent process, and the new processes are called the children of that process.
+1-6
 
-Newly created processes may in turn create other new processes, creating a tree of processes. In UNIX or the Windows family of operating systems processes are identified by unique process identifier (or pid), which is typically an integer number. The ps command is used in UNIX to obtain the listing of processes. By using command ps -el complete information for all processes currently active in the system can be obtained.
+Operating System Services and Components
 
-Process requires certain resources like CPU time, memory, files, I/O devices to complete its task. The subprocess also needs these resources. Subprocess can get its needed resources directly from the operating system, or it may be forced to a subset of the resources of the parent process.
+Initiation of a batch job: Here users can submit batch jobs to the system (possibly remotely). When the 05 decides that it has the resources to run another Job, it creates a new process and runs the next job from the Input qurur in it.
 
-The parent can share the resources among its children or it can divide the resources to allocate to its children. If child process is restricted to a subset of the parent's resources, overloading the system by creating too many subprocesses can be avoided. The initialization data may be passed along by the parent process to the child process after creation of the process.
+During the execution process can create new process by using create process system call. The process which creates new process is called a parent process, and the new processes are called the children of that process.
+
+Newly created processes may in turn create other new processes, creating a tree of processes. In UNIX or the Windows family of operating systems processes are identified by unique process identifier (or pid), which is typically an integer number. The pe command is used in UNIX to obtain the listing of processes. By using command pe-el complete information for all processes currently active in the system can be obtained.
+
+Process requires certain resources like CPU time, memory, files, 1/0 devices to complete its task. The subprocess also needs these resources. Subprocess can get its needed resources directly from the operating system, or it may be forced to a subset of the resources of the parent process.
+
+The parent can share the resources among its children or it can divide the resources to allocate to its children. If child process is restricted to a subset of the parent's resources overloading the system by creating too many subprocesses can be avoided. The initialization data may be passed along by the parent process to the child process after creation of the process.
 
 After creation of a new process, two possibilities exist related to execution:
 
-1. The parent carries on executing in parallel with its children.
-2. The parent waits until some or all of its children have terminated.
+The parent carries on executing in parallel with its children.
+
+The parent walts until some or all of its children have terminated.
 
 There are also two possibilities related to the address space of the new process:
 
-1. The child process may have same program and data as the parent. That is it is duplicate of parent.
-2. The child process has a new program loaded into it.
+The child process may have same program and data as the parent. That is it is duplicate of parent.
 
-1.5 Resource Management
+The child process has a new program loaded into it
+
+1.1.5 Resource Management
 
 From the computer's point of view, the operating system is the program most closely involved with the hardware. In this context, we can view an operating system as a resource allocator.
 
-Resource: There are many resources available in the systems. For example CPU, memory (RAM), file-storage space, I/O devices (disk), files, printers and so on.
+Resource: There are many resources available in the systems. For example CPU, memory (RAM), file-storage space, 1/0 devices (disk), files, printers and so on.
 
 The OS acts as the manager of these resources. It decides which resource should be given to which program, for how much time and after use it reclaims the resource. Each program gets:
 
-1. Time with the resource.
-2. Space on the resource.
+1. Time with the resource
 
-Multiple users/applications can share the resources. The reasons for sharing are:
+2. Space on the resource
+
+Multiple users/applications can share the resources. The reasons is of sharing are:
 
 1. The devices are expensive, so sharing saves the cost.
+
 2. The data needs to be shared as well as needs to be communicated.
 
 Facing numerous and possibly conflicting requests for resources, the OS must decide:
 
 1. How to allocate them to specific programs (processes, jobs)?
-2. How to protect applications from one another?
+
+2. How to protect applications from one another ?
+
 3. How to provide fair and efficient access to resources?
-4. How to operate and control the various I/O devices?
 
-Pg6END
+4. How to operate and control the various 1/0 devices?
 
-1.6 Security and Protection
+Pg6 end.
 
-1.6.1 Security and its Goals
 
-The security breach or misuse of the system can be classified as purposeful (malicious) or unintentional (accidental). It is easy to deal with accidental misuse compared to malicious misuse. The protection mechanisms are basically designed for protection from accidents.
+1-7
 
-The system is secure if its resources are used and accessed as proposed under all conditions. Total security is impossible to achieve. We must have mechanisms to make security breaches an exceptional occurrence, rather than the rule. The challenge in developing operating systems security is to design security mechanisms that safeguard process execution and their generated data in an environment with complex interactions.
+1.1.6 Security and Protection
 
-The protection of the system considers and concerns only about internal environment of the system. In contrast, security requires consideration of the external environment within which the system functions. Only sufficient protection system is not enough for total security. Protection mechanisms refer to the particular operating system mechanisms which are used to protect information in the computer. Security encompasses the overall problem of security.
+1.1.6(A) Security and it's Goals
+
+The security breach or misuse of the system can be classified as purposeful (malicious) or unintentional (accidental). It is easy to deal with accidental misuse with compare to malicious misuse. The protection mechanisms are basically designed for protection from accidents.
+
+The system is secure if its resources are used and accessed as proposed under all conditions. Total security is Impossible to achieve. We must have mechanisms to make security breaches an exceptional occurrence, rather than the rule. The challenge in developing operating systems security is to design security mechanisms that safeguard process execution and their generated data in an environment with complex interactions.
+
+The protection of the system considers and concern only about internal environment of the system. In contrast. security requires consideration of the external environment within which the system functions. Only sufficient protection system is not enough for total security. Protection mechanisms refer to the particular operating system mechanisms which are used to protect information in the computer. Security encompasses the overall problem of security.
 
 Security has many aspects. Three of the more important ones are:
 
-1. The nature of the threats.
-2. The nature of intruders.
-3. Accidental data loss.
+The nature of the threats.
 
-Trojan Horses:
+The nature of intruders.
 
-Trojan horse is program segment that exploits its environment. It is one of the hoary insider attacks. It is apparently innocent program that includes code to do an unpredicted and unwanted function. These functions can be modifying, deleting or performing the encryption on user's files. It can also copy the file to a particular place where cracker can recover it. It can be placed on internet as a game or any file to attract the user attention. After that if user downloads and runs it then Trojan horse gets invoked to perform unexpected operations.
+Accidental data loss.
 
-Trap Doors:
+Trojan horses
 
-Trap doors are pieces of code embedded in programs by the designer to get access quickly at a later time, often at the time of the testing or debugging phase. If a dishonest programmer deliberately leaves this code in or simply does not remember to remove it, a potential security hole is introduced. It is impossible to remove in reliable way. Only solution is to reformat the system. It is also possible to include the intelligent trap door in compiler to generate it along with the object code after compilation.
+Trojan horse is program segment that exploits its environment. It is one of the hoary insider attack It is apparently innocent program that includes code to do an unpredicted and unwanted function. These function can be modifying, deleting or performing the encryption on users file. It can also copy the file to a particular place where cracker can recover it. It can be placed on internet as a game or any file to attract the user attention. After that if user downloads and run it then Trojan horse gets invoked to perform unexpected operations.
 
-Intruders:
+Trap Doors
+
+Trap doors is a piece of code embedded in programs by the designer to get access quickly at a later time, often at the time of the testing or debugging phase. If a dishonest programmer deliberately leaves this code in or simply not remember to remove it, a potential security hole is introduced. It is impossible to remove in reliable way, Only solution is to reformat the system. It is also possible to include the intelligent tap door in compiler to generate it along with the object code after compilation.
 
 Intruder is the most well-known threat to security, generally referred to as hacker or crackers. Passive Intruders want to read file in unauthorized way. Active intruders want to make unauthorized changes to data.
 
-Accidental Data Loss:
+Accidental Data Loss
 
-Apart from threats by intruders, important data can be lost by accident. Some of the common causes of accidental data loss are:
+Apart from threats by intruders, important data can be lost by accident. Some of the common causes of
+
+accidental data loss are:
 
 1. Natural calamity or Act of God: Fires, floods, earthquakes, wars, riots, or rats chewing tapes or Floppy disks.
+
 2. Hardware or software errors: Error in reading disks or tapes, communication errors, device errors, CPU malfunctioning etc.
+
 3. Human errors: Incorrect data entry, wrong program run, lost disk or tape, or some other mistake.
+Pg 7 END.
 
-Pg7END
 
-1.6.2 Goals of Protection
 
-Protection mechanisms refer to the particular operating system mechanisms which are used to protect information, files and resources in the computer. Policy means whose data should be protected from whom and mechanism is how system puts into effect these policies.
+
+1-8
+1.1.6(B) Goals of Protection
+
+Protection mechanisms refer to the particular operating system mechanisms which are used to protect Information, files and resources in the computer. Policy means whose data should be protected from whom and mechanism is how system put into effect these policies.
 
 In some systems, a program called reference monitor is used to impose a protection. Any attempt to access the resource is verified by reference monitor whether it is legal or not. The reference makes a decision on the basis of policy table.
 
 Modern protection mechanism has developed to improve the reliability of any complex system in which use of shared resources is involved. There are many reasons to offer the protection.
 
-It is needed to provide the protection to avoid mischievous, deliberate violation of an access restriction by a user. It is necessary to make sure that each program component running in the system uses system resources as per defined policies to ensure the reliability of the system.
+It is needed to provide the protection to avoid mischievous, deliberate violation of an access restriction by a user, It is necessary to make sure that, each program component running in the system uses system resources as per defined policies to ensure the reliability of the system.
 
 Policies to make use of the resources of computer system are put into effect by mechanism which is offered by protection. Some of the policies are included in the design of the system. Other policies are decided by the management of a system. Many policies are defined by the individual user of the system to protect their own files and programs.
 
 A protection system should be flexible enough to offer different and put into effect the different types of policies. Different types of applications have different types of resource use. The policies designed should allow to offer this resource use need. The resource use of the applications can change over the period of time. Hence, instead of relying totally on operating system, application programmer should use protection mechanism to protect the resources created against misuse.
 
-1.6.3 Protection Domains
+1.1.6(C) Protection Domains
 
 The system contains many hardware objects such as CPUs, memory segments, disk drives, printers, magnetic tapes and many software objects such as processes, files, databases, or semaphores. Each object can be referenced by its unique name. On every object a finite set of operations can be performed. For example, WAIT and SIGNAL on semaphores and READ and WRITE on files.
 
 A system should enforce a mechanism, to restrict the processes from accessing the needed objects for which they are not unauthorized. The mechanism should also ensure to restrict processes to a subset of the legal operations when that is needed.
 
-For example, process P has a permission to read file F but not of performing write operation on it. A set of object and rights pair is called domain. Each pair denotes an object and some subset of the operations that can be performed on it. One domain corresponds to one user and specifies the permissions to user for certain activities. Consider the following three domains as shown in Fig 1.1:
+For example, process P has a permission to read file F but not of performing write operation on it. A set of object and rights pair is called domain. Each pair denotes an object and some subset of the operations that can be performed on it. One domain corresponds to one user and specify the permissions to user for certain activities. Consider the following three domains as shown in Fig. 1.1.1.
 
-Domain 1:
-- File A (RW)
-- File B (R)
+Domain t
 
-Domain 2:
-- File C (R)
-- File D (RWX)
-- File E (RW)
+File A (RW File B (R)
 
-Domain 3:
-- Printer A (W)
-- File F (RW)
-- File G (RWX)
+Domain 2
 
-Figure 1.1: Protection Domains
+File C (R) File D [RWX) File E (RW)
 
-Pg8END
-It is possible for the same object to be in multiple domains. [Read, Write, Execute] rights are available on each object. At a particular time of execution, each process executes in some protection domain.
+Domain 3
+
+Printer A [W]
+
+File F [RW] File G (RWX)
+
+Fig. 1.1.1: Domains
+
+Pg 8 END.
+
+
+
+
+
+
+1-9
+ It is possible for the same object to be in multiple domains. [Read, Write, Execute) rights are available on each object. At a particular time of execution, each process executes in some protection domain.
 
 In that domain there is some set of objects it can access, and for each object it has some set of rights shown in square brackets.
 
-During execution, processes can go from one domain to other domain. The rules for domain switching are very much dependent on and varies from system to system.
+During execution, processes can go from one domain to other domain. The rules for domain switching are very much depends on and varies from system to system.
 
-In Unix every process is defined by user-id and group-id (uid, gid). Two processes with the similar (UID, GID) combination will have access to precisely the same set of objects. Process often switches from user area to kernel area, that is, from one domain to other. The kernel part has access to a different set of objects from the user part.
+In Unix every process is defined by user-id and group-id (uld, gid). Two processes with the similar (UID, GID) combination will have access to precisely the same set of objects. Process often switches from user area to kernel area, that is, from one domain to other. The kernel part has access to a different set of objects from the user part.
 
-1.6.4 Access Matrix
+1.1.6(D) Access Matrix
 
 The kernel part has access to a different set of objects from the user part.
 
-System keeps track on which object belongs to which domain by using access matrix. The matrix for above Fig 1.1 is shown in Fig 1.2.
+System keeps track on which object belongs to which domain by using access matrix. The matrix for above Fig. 1.1.1 is shown in Fig. 1.1.2.
 
 The system can tell if an access to a given object in particular manner from a specified domain is permissible. For this purpose, system makes use of this matrix and the current domain number.
 
-Access Matrix:
+File A
 
-                    File A    File B    File C    File D    File E    File F    File G    Printer A
-Domain 1            RW        R         -         -         -         -         -         -
-Domain 2            -         -         R         RWX       RW        -         -         W
-Domain 3            -         -         -         -         -         RW        RWX       -
+File B
 
-Figure 1.2: Access Matrix for Fig 1.1
+File C
 
-It is possible to switch domain in the matrix model by considering that a domain is itself an object, with the action "enters". Processes in domain1 are allowed to go in domain2, but once it is in domain2, they cannot go back to domain1. This situation models executing a SETUID program in UNIX. In this example, other domain switches are not permitted.
+File D
 
-Domain Switching Matrix:
+File E
 
-                    File A    File B    File C    File D    File E    File F    File G    Printer A    Domain 1    Domain 2    Domain 3
-Domain 1            RW        R         -         -         -         -         -         -            -           Enter 1     -
-Domain 2            -         -         R         RWX       RW        -         -         W            -           -           Write 3
-Domain 3            -         -         -         -         -         RW        RWX       -            -           -           -
+File F
 
-Figure 1.3: Matrix model with domain switching
+File G
 
-Pg9END
+Object
 
-1.7 Different Views of Operating System
+Printer A
 
-Different views of an operating system are Application View, User View, System View and implementation view.
+Domain 1
 
-1.7.1 Application View
+Read write
+
+Read
+
+Domain2
+
+Read
+
+Read write Execute
+
+Read Write
+
+Write
+
+Read Write
+
+Read write Execute
+
+Write
+
+Domain3
+
+Fig. 1.1.2: Access Matrix for Fig. 1.1.1
+
+It is possible to switch domain in the matrix model by considering that a domain is itself an object, with the action enters. Processes in domain1 are allowed to go in domain 2, but once it is in domain 2, they cannot go back to domain 1. This situation models executing a SETUID program in UNIX. In this example, other domain switches are not permitted
+
+Domain
+
+File A
+
+File B
+
+File C
+
+File D
+
+File E
+
+File F
+
+File G
+
+Printer A
+
+Domain
+
+1
+
+Domain
+
+2
+
+Domain.
+
+Read Write
+
+Enter
+
+1
+
+Read
+
+Read
+
+Read write
+
+2
+
+Write
+
+3
+
+Read
+
+write Execute
+
+Read Write
+
+Read Write Execute
+
+Write
+
+3
+
+Fig. 1.1.3: Matrix model with domain switching
+
+
+Pg9 END.
+
+
+
+
+
+
+
+
+
+1-10
+1.1.7 Different Views of Operating System
+
+Different views of an operating system are Application View, User View, System View and implementation view
+
+1.1.7(A) Application View
 
 In application view, we consider the services provided by operating system. Operating System is responsible to provide the needed execution environment to the running programs. The program needs processor, memory space and other resources during execution.
 
-This is exactly provided by execution environment. The program uses network, storage devices, and hardware components through interfaces. These interfaces are also provided by execution environment. Interfaces provide a simplified, abstract view of hardware to application programs. Undesirable interaction between concurrent running programs is prevented by execution environment making them isolated from each other.
+This is exactly provided by execution environment. The program uses network, storage devices, and hardware components through interfaces. These interfaces are also provided by execution environment. Interfaces provide a simplified, abstract view of hardware to application programs. Undesirable interaction between concurrent running programs is prevented by execution environment making them isolated from each others is also.
 
-1.7.2 Users View
+1.1.7(8) Users View
 
 If the user is working on the single autonomous PC for his work, then performance is mostly taken into consideration. Operating system is designed to give ease of use and gaining performance. In this case attention will not be given to optimum resource utilization.
 
 If many users working on workstations connected to mainframe, minicomputers or servers, they share the resources of the servers. This is because all access the same machine for their work. The exchange of information takes place among the users.
 
-The operating system is designed to maximize resource utilization. In recent times, many varieties of handheld computers such as Personal Digital Assistant (PDA), Handheld Personal Computer (HPC) and Modern Cellular Phones etc. have come into fashion.
+The operating system is designed to maximize resource utilization. In recent times, many varieties of handheld computers such as Personal Digital Assistant (PDA), Handheld Personal Computer (HPC) and Modem Cellular Phones etc. have come into fashion.
 
 These devices are used by single user. Some are connected to networks, either directly by wire or through wireless modems. Since devices operate by battery power, there is limitation of power. Due to the limitation of power and interfaces, the remote operations of these devices are also limited. Again operating systems for these devices are designed mostly for individual usability, but performance per amount of battery life is important as well.
 
-1.7.3 System View
+1.1.7(C) System View
 
-The operating system is called as resource manager. It manages the hardware resources of a computer system. Resources include processors, memory, disks and other storage devices, network interfaces, I/O devices such as keyboards, mice and monitors, so on.
+The operating system is called as resource manager. It manages the hardware resources of a computer system. Resources include processors, memory, disks and other storage devices, network interfaces, 1/0 devices such as keyboards, mice and monitors, so on.
 
-The running program needs resources and operating system allocates it. Some of the resources are sharable and some not. The operating system controls the sharing of the resources among many programs that are executing.
+The running program needs resources and operating system allocates it. Some of the resources are sharable and some not. The operating system controls the sharing of the resources among many programs that are executing
 
-1.7.4 Implementation View
+1.1.7(D) Implementation View
 
 The operating system is implemented as concurrent, real-time program. Concurrency in operating system is due to the requirement of supporting the concurrent applications. Also operating system should directly interact with the hardware which imposes timing constraints.
 
-The execution environment contains the abstract entities like files and file system, processes and threads, address spaces, sockets, pipes etc. These entities are manipulated by running program.
+The execution environment contains the abstract entities like files and file system, processes and threads. address spaces, sockets, pipes etc. These entities are manipulated by running program.
 
-Pg10END
 
-2. DIFFERENT TYPES OF OPERATING SYSTEMS       
+Pg 10END.
 
-QUESTIONS:
-- Enlist types of operating system.
+1-11
+
+1.2 Different Types of Operating Systems       
+
+Q. Enlist types of operating system, W-19
 
 The classification of the different operating systems is given below along with a few examples of operating systems that fall into each of the categories. Many computer operating systems will fall into more than one of the following categories:
 
-1. Multi-user
-2. Multiprocessing
-3. Multitasking
-4. Multithreading
-5. Real time
+(1) Multi-user
 
-2.1 Multi-user
+(2) Multiprocessing
+
+(3) Multitasking
+
+(4) Multithreading
+
+(5) Real time
+
+1. Multi-user
 
 In multiuser operating system multiple users can work on same computer simultaneously. Some operating systems allow hundreds or even thousands of parallel users working on the system.
 
-Following are some examples of multi-user operating systems: Linux, UNIX, Windows 2000, Windows .NET.
+Following are some examples of multi-user operating systems: Linux, UNIX, Windows 2000, Windows.NET
 
-2.2 Multiprocessing
+2. Multiprocessing
 
 Multiprocessing operating system supports for multiple CPU in a system. It supports for allocation of different CPU to multiple threads of the program. Due to parallel execution of the threads, efficiency and performance can be achieved.
 
 Following are some examples of multiprocessing operating systems: Linux, UNIX, Windows 2000.
 
-2.3 Multitasking
+3. Multitasking
 
 Operating system which supports for multitasking, permits for execution of many software processes at the same time. Multiple tasks are handled concurrently.
 
 Following are some examples of multitasking operating systems: UNIX, Windows 2000.
 
-2.4 Multithreading
+4. Multithreading
 
 A single program can have multiple threads that can run in parallel. The operating system supporting for multithreading can divide the program in multiple threads that can run in parallel.
 
 Such operating systems that would fall into this category are:
 
-- Linux
-- UNIX
-- Windows 2000
+Linux
 
-2.5 Real Time
+UNIX
 
-For Real time operating systems time constraints are a key parameter.
+Windows 2000.
+
+5. Real Time
+
+For Real time operating systems time constrains are a key parameter.
 
 If the completion of particular task should happen in given time constraints or action completely must take place at a certain instant or within a certain range.
 
-Real time operating systems must respond quickly. All above OS like UNIX, Windows are not real time OS.
+Real time operating systems must respond quickly. All above OS like UNIX, Windows are not real time 05.
 
 Categories of operating systems are explained in further sections.
 
-Pg11END
+Pg11 End.
 
-2.1.1 Batch Operating System
 
-In earlier days programmers used to write their programs by using punched cards. Normally at that time, mainframe computer system used to be a resident at a computer system centre with controlled environment. Punched cards were holding the instructions of programs in encoded form. This was done by punching the card. Card was holding the instruction in binary form. Among the deck header cards which were "Job control cards" would specify compilers needed to compile the program.
+
+
+
+
+
+
+
+
+1-12
+
+1.2.1 Batch Operating System
+
+In earlier days programmers used to write their programs by using punched cards. Normally at that time, mainframe computer system used to be a resident at a computer system centre with controlled environment Punched cards were holding the instructions of programs in encoded form. This was done by punching the card Card was holding the instruction in binary form. Among the deck header cards which were "Job control cards" would specify compilers needed to compile the program.
 
 The operators at the computer system would group the job as per programming languages. The jobs which required long processing time were classified as long jobs and which had short processing time was classified as "short jobs".
 
-The entire processing was batch processing on the basis of set of jobs. There was no user interaction in processing the jobs. The processor would remain busy at a time in processing one program. If any I/O required, then processor would wait as processor speed is high with compare to I/O speed. As a consequence of this processor utilization was poor and would remain idle for most of the time. In this scenario only one program was kept in the memory at the time of execution.
+The entire processing was batch processing on the basis of set of jobs. There was no user Interaction in processing the jobs. The processor would remain busy at a time in processing one program. If any 1/0 required, then processor would wait as processor speed is high with compare to 1/0 speed. As a consequence of this processor utilization was poor and would remain idle for most of the time. In this scenario only one program was kept in the memory at the time of execution.
 
 This operating system does not permit the user to interact with executing program. Job scheduling in this type of OS in order of arrival that is first come first serve basis.
 
@@ -930,72 +1242,89 @@ These systems are better for long jobs and user interaction not needed. CPU rema
 
 Limitations of these types of system are smaller processes needs to wait for other jobs or processes, time consuming and data is supplied in batch so delay is caused.
 
-2.1.2 Multiprogrammed Operating Systems
+1.2.2 Multiprogrammed Operating Systems
 
-QUESTIONS:
-- Explain multiprogramming OS in detail.
+Q. Explain multiprogramming OS in detail       , W-19
 
-Multiprogramming is required to support multiple processes simultaneously. Since multiple processes are resident in memory at the same time, it increases processor utilization if the processes are I/O bound.
+Multiprogramming is required to support multiple processes simultaneously. Since multiple processes are resident in memory at the same time, it increases processor utilization if the processes are 1/0 bound.
 
 CPU does not remain idle. CPU utilization increases as it executes multiple processes on time sharing basis. Multiprogramming gives illusion of running multiple processes at once and provides users with interactive response to processes.
 
-As single user cannot keep either CPU or I/O devices busy all the time, operating system supports multiprogramming.
+As single user cannot keep either CPU or 1/0 devices busy all the time, operating system supports multiprogramming
 
-In multiprogramming, operating system organizes the jobs in such a way that the CPU always get one job to execute. Hence, Multiprogramming improves CPU utilization.
+In multiprogramming, operating system organizes the jobs in such a way that the CPU always get one job to execute, Hence, Multiprogramming improves CPU utilization.
 
 Multiple jobs remain in memory so that CPU can take any one for processing.
 
-During processing of job if I/O is required then CPU does not remain idle it takes other job for processing till I/O completes.
+During processing of job if I/O is required then CPIJ does not remain idle it takes other job for processing till 1/0 completes.
 
 Modern all personal computer operating systems support for multiprogramming. At the boot time itself, several programs starts up. These are single user as well as multiuser operating systems and offer good support to the single user or multiple users.
 
 Word processing, spreadsheets, games, and Internet access are some of the common use of these operating systems. UNIX, Linux, FreeBSD, Windows 7, Windows 8, and Apple's OS X are some of the examples of these operating systems.
 
-Pg12END
+Pg12 END.
 
-2.1.3 Time Shared Operating Systems
+1-13
 
-QUESTIONS:
-- Describe working of time sharing system with nest diagram.
+1.2.3 Time Shared Operating Systems
 
-Time sharing system diagram:
+Q.Describe working of time sharing system with nest diagram.    S-22,W-22
+
+Time sharing system
 
 User 3
+
 User 4
+
 User 2
-    CPU
+
+CPU
+
 User 5
+
 (Active state)
 
 User
+
 User
+
 (Ready state)
 
-Figure 2.1: Time Sharing System
+Fig. 1.2.1
 
-User1, User2, User3 and User4 are in waiting state. They are waiting for I/O operation. More than one user can be in this state. User5's program is under execution and User6's program is ready to execute and waiting for its next turn for CPU.
+User1, User 2, User 3 and User 4 are in waiting state. They are waiting for 1/0 operation. More than one user can be in this state. User 5's program is under execution and User 6's program is ready to execute and waiting for its next turn for CPU.
 
 Multiple users are permitted by time shared operating system to share the machine at the same time. Time shared system is capable of completing each action or command in a very less time. As a result, each user need can be fulfilled in very less time. A particular user program executes in allocated time by system and after expiration of slot, system gets allocated to other user program.
 
 So the allocation of computer resources in time slots to several programs simultaneously is in time sharing manner. Consider the example of multiple users logged in same server. The resources in server machine like CPU gets allocated to each user on time sharing basis giving the feeling to each user that only he or she is using the server machine exclusively.
 
-The development of time sharing system was aimed to offer an interactive utilization of the computer system to its user. These systems make use of CPU scheduling and multiprogramming to offer each user with a small quantum of time slot to carry out the designated work. Many users can share the resources of computer system at the same time.
+The development of time sharing system was aimed to offer an interactive utilization of the computer system to Its user. These systems make use of CPU scheduling and multiprogramming to offer each user with a small quantum of time slot to carry out the designated work. Many users can share the resources of computer system at the same time.
 
 Users can execute their jobs in small time slot allocated to them. After expiration of this slot, system switches to other user and again time quantum is allocated to execute his/her jobs. As scheduling is used and time is divided as per scheduling criteria, the time sharing system offers the straight access to a large amount of users.
 
 In this system each user feels that CPU is allocated to him or her only. The reason behind this is that, the time quantum allocated to them is very small and switching from one user to other occurs in very less time.
 
-2.1.4 Multiprocessor Systems
+1.2.4 Multiprocessor Systems
 
-QUESTIONS:
-- State and describe any two advantages of multiprocessor system.
-- Describe multiprocessor OS with its advantages.
+Q. State and describe any two advantages of multiprocessor system. S-22
+
+
+Q. Describe multiprocessor OS with its advantages.   S-23, W-23
 
 Unlike the uni-processor operating systems, multiprocessor operating systems offers support for multiple processors having access to a shared memory. In this case, all data structures required by the operating system to deal with the hardware, together with the multiple CPUs, are placed into shared memory.
 
-Multiple processors can access these data. Hence protection against simultaneous access is needed to promise consistency. Modern operating systems are designed with the intention of handling multiple processors.
+Multiple processors can access these data. Hence protection against simultaneous access is needed to promise consistency. Modern operating systems are designed with the intension of handling multiple processors.
 
-Pg13END
+Pg13 END.
+
+
+
+
+
+
+
+
+1-14
 
 The main aim of multiprocessor operating systems is to achieve high performance by means of multiple CPUs. A key goal is hide the presence of number of CPUs from the application.
 
@@ -1003,21 +1332,23 @@ Such transparency can be attained and is relatively straightforward as different
 
 All the communication is made by manipulating data at shared memory locations, and it is required to protect that data against concurrent access. This protection is achieved through synchronization primitives: semaphores and monitors. Windows and Linux are multiprocessor operating systems.
 
-2.1.5 Mainframe Operating Systems
+1.2.5 Mainframe Operating Systems
 
-Mainframe computers have high I/O capacity. It is common to have 1000 disks in mainframe with millions gigabyte of data. These machines are now under consideration as high-end Web servers, servers for large-scale electronic commerce sites, and servers for business-to-business transactions.
+Mainframe computers have high 1/0 capacity. It is common to have 1000 disks in mainframe with millions gigabyte of data. These machines are now under consideration as high-end Web servers, servers for large-scale electronic commerce sites, and servers for business-to-business transactions.
 
-The operating systems for mainframes processes the several jobs at once, and most of which need remarkable amounts of I/O. Services offered by mainframe operating systems are:
+The operating systems for mainframes processes the several jobs at once, and most of which need remarkable amounts of 1/0. Services offered by mainframe operating systems are:
 
-1. Batch
-2. Transaction processing
-3. Timesharing
+o Batch
+
+o Transaction processing
+
+o Timesharing.
 
 In batch processing user's interaction is not required, Job is submitted to the system and need to wait until final result is generated. For example, claims processing in an insurance company.
 
-Transaction-processing include the handling of large number of small requests, for example, check processing at a bank or railway reservations. With timesharing systems many number of remote users can run jobs on the system at once, for example, querying a big database. OS/390 which is descendant of OS/360 is an example of mainframe OS. However, mainframe operating systems are slowly being replaced by Linux.
+Transaction-processing include the handling of large number of small requests, for example, check processing at a bank or railway reservations. With timesharing systems many number of remote users can run jobs on the system at once, for example, querying a big database. 05/390 which is descendant of OS/360 is an example of mainframe OS. However, mainframe operating systems are slowly being replaced by Linux.
 
-2.1.6 Distributed Systems
+1.2.6 Distributed Systems
 
 The development of powerful microprocessors and invention of the high speed networks are the two major developments in computer technology. Many machines in the same organization can be connected together through local area network and information can be transferred between machines in a very small amount of time.
 
@@ -1025,31 +1356,41 @@ As a result of these developments, it became easy and practicable to organize co
 
 Because of this, the distributed computer systems appeared as a practical substitute to uniprocessor and centralized systems. The networks of computers are present all over. Internet is composed of many networks. All these networks separately and in combination as well, share the necessary characteristics that make them pertinent topics to focus under distributed system.
 
-2.1.6.1 Definition of Distributed Systems
+1.2.6(A) Definition of Distributed Systems
 
-A computer network is defined as a set of communicating devices that are connected together by communication links. These devices include computers, printers and other devices capable of sending and/or receiving information from other devices on the network. These devices often called as node in the network. So computer network is interconnected set of autonomous computers.
+A computer network is defined as a set of communicating devices that are connected together by communication links. These devices Include computers, printers and other devices capable of sending and/or receiving information from other devices on the network. These devices often called as node in the network. So computer network is interconnected set of autonomous computers.
 
-Pg14END
+Pg 14 END.
+1-15
 
-A distributed system is defined as set of autonomous computers that appears to its users as a single coherent system.
+ A distributed system is defined as set of autonomous computers that appears to its users as a single coherent system.
 
-Users of distributed system feel that they are working with a single system. Following are the main characteristics of distributed system:
+Users of distributed system feel that they are working with a single system. Following are the main characteristics of distributed system.
 
 1. A distributed system comprises computers with distinct architecture and data representation. These dissimilarities and the ways all these machines communicate are hidden from users.
+
 2. The manner in which distributed system is organized internally is also hidden from the users of the distributed system.
+
 3. The interaction of users and applications with distributed system is in consistent and identical way, in spite of where and when interaction occurs.
+
 4. A distributed system should allow for scaling it.
+
 5. Distributed system should support for availability. It should be always available to the users and applications in spite of failures.
+
 6. Failure handling should be hidden from users and applications.
 
-2.1.6.2 Motivation
+1.2.6(B) Motivation
 
-Following are the objectives behind building distributed system:
+Following are the objective behind building distributed system:
 
-1. Resource sharing
+1.Resource sharing
+
 2. Computation speedup
+
 3. Reliability
+
 4. Communication
+
 
 1. Resource sharing
 
@@ -1065,21 +1406,38 @@ Many big computations can be divided in sub-computations which can be assigned t
 
 3. Reliability
 
-System does not affect with failure of one node in network as other nodes are available in system. In case of failure, other nodes can take over computations to achieve reliability. This failure should be detected and recovered by system itself. Once the recovery is done, final computation must result in consistent state.
+System does not affect with failure of one node in network as other nodes are available in system. In case of fallure, other nodes can take over computations to achieve reliability. This failure should be detected and recovered by system itself. Once the recovery is done, final computation must result in consistence state.
 
-Pg15END
+Pg 15 END.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-16
 
 4. Communication
 
 Machines in network communicate with each other by exchanging messages. At low level, this communication takes place through protocol stack between machines. At highest level, applications exchange these messages. Due to such communication, many users can be part of a single work to be carried out by sharing the information.
 
-By connecting users and resources, it becomes easier to work together and exchange information. The success of the Internet is due to its straightforward protocols for exchanging files, mail, documents, audio, and video. The worldwide spread people can work together by means of groupware. Electronic commerce permits us to purchase and sell variety of goods without going to shop or even leaving home.
+By connecting users and resources, it becomes easier to work together and exchange information. The success of the Internet is due to its straightforward protocols for exchanging files, mail, documents, audio, and video. The worldwide spread people can work together by means of groupware. Electronic commerce permits us to purchase and sell verity of goods without going to shop or even leaving home.
 
-2.1.6.3 Types of Distributed Operating Systems
+1.2.6(C) Types of Distributed Operating Systems
 
 In a network, multiple machines may have different operating system installed on it. Operating systems for distributed computers are categorized as:
 
-(a) Tightly coupled systems: It keeps a single, global view of the resources it manages. Such tightly coupled operating system is called as distributed operating system (DOS). It is useful for the management of multiprocessors and homogeneous multicomputer. DOS hides details of underlying hardware. This hardware can be shared by many processes and details remains hidden.
+(a) Tightly coupled systems: It keeps a single, global view of the resources it manages. Such tightly coupled
+
+operating system is called as distributed operating system (DOS). It is useful for the management of multiprocessors and homogeneous multicomputer. DOS hides details of underlying hardware. This hardware can be shared by many processes and details remains hidden.
 
 (b) Loosely-coupled systems: In a set of computers, each has its own OS and there is coordination between operating systems to make their own services and resources available to the others. This loosely coupled OS is called as network operating system (NOS) and is used for heterogeneous multicomputer systems.
 
@@ -1087,13 +1445,13 @@ In a network, multiple machines may have different operating system installed on
 
 If users have NOS installed on machine then they can either access resources on other machine by remote login or transfer the data from remote machine to their own machine.
 
-1.1 Remote Login
+(1) Remote Login
 
 Network operating system allows users to log in remotely. The Internet offers the telnet facility for remote login. NOS permit users to use services available on a particular machine in the network. Remote login service provided by NOS allows the user to log in remote machine from his/her terminal.
 
 Using command for remote copy, user can copy the file from one machine to other.
 
-1.2 Remote File Transfer
+(ii) Remote File Transfer
 
 NOS offer a mechanism for remote file transfer from one computer to another. Here, each computer has its own local file system. If a user working on computer A wants to access a file on another computer B, then the file must be copied explicitly from the computer B to computer A. File Transfer Protocol (FTP) is used for such transfer in internet environment. User invokes the FTP program as:
 
@@ -1103,73 +1461,118 @@ After entering the correct username and password, user should connect to the rig
 
 get abc.txt
 
-The location of file is not transparent to user. As file is only allowed to copy from one machine to other, many copies exists which waste the storage space. The daemon process running on remote computer watches connection request on FTP port and completes authentication of user. This daemon responds to the set of following predefined commands:
+The location of file is not transparent to user. As file is only allowed to copy from one machine to other, many coples exists which waste the storage space. The daemon process running on remote computer watches connection request on FTP port and completes authentication of user. This daemon responds to the set of following predefined commands.
 
 1. get: Transfer file from remote computer to local computer.
 
-Pg16END
+Pg 16 end.
 
-2. put: Transfer file from local computer to remote computer.
-3. ls or dir: List files in the current directory on the remote computer.
+
+
+
+
+1-17
+
+2. put: Transfer file from local computer to remote computer,
+
+3. Is or dir: List files in the current directory on the remote computer.
+
 4. cd: Change the current directory on the remote computer.
 
 2. Distributed Operating Systems (DOS)
 
 In a distributed operating system, access to remote and local resources seems to be in the same way. Operating system controls the data and process migration from one site to another.
 
-2.1 Data Migration
+(1) Data Migration
+
+(i) Computation Migration
+
+(iii) Process Migration
+
+(1) Data Migration
 
 User working on machine A can access data (such as a file) that reside at machine B. One method to data migration is to transfer the complete file to machine A. After this all access to the file is local. When the user need is completed, a copy of the file if it has been modified is sent back to machine B.
 
-Although a small change has been made to a large file, all the data needs to be transferred. This method was used in the Andrew file system. This method of file transfer is inefficient. In other method of data transfer only those portions of the file that are actually needed for the immediate task gets transferred.
+Although a small change has been made to a large file, all the data needs to be transferred. This method was used in the Andrew file system. This method of file transfer is inefficient. In other method of data transfer only those portions of the file that are actually needed for the immediate task gets transferred,
 
 If another part of the file is needed later on, another transfer will take place. When the user no longer wants to access the file, any part of it that has been modified must be sent back to machine B. The Sun Microsystems network file system (NFS) protocol uses this method. The Microsoft SMB protocol (running on top of either TCP/IP or the Microsoft NetBEUI protocol) also allows file sharing over a network.
 
-2.2 Computation Migration
+(II) Computation Migration
 
-The computation rather than the data can be transferred across the system. This approach is called computation migration. If applications need to access various large files that reside at different machines, to obtain a summary of those files. In this case, it would be more beneficial and efficient to access the files at the machine where they reside and return needed results to the machine that initiated the computation.
+The computation rather than the data can be transfer across the system. This approach is called computation migration. If applications need to access various large files that reside at different machines, to obtain a summary of those files. In this case, it would be mare beneficial and efficient to access the files at the machine where they reside and return needed results to the machine that initiated the computation.
 
 If the time required to transfer the data is longer than the time to execute the remote command, the remote command should be executed.
 
-2.3 Process Migration
+(iii) Process Migration
 
-Process migration involves transfer of process to other machine for execution purpose. The whole process, or portion of it, may be executed at different machines. The reasons for migration are:
+Process migration involves transfer of process to other machine for execution purpose. The whole process, or portion of it, may be executed at different machines. The reason for migration is
 
-1. Load balancing: The processes (or sub processes) may be distributed across the network on different machines to balance the workload.
-2. Computation speedup: The subprocesses of the single process can run concurrently on different machines then the total process turnaround time can be reduced.
-3. Hardware preference: The particular process may need some specialized processor for execution.
-4. Software preference: The needed software by process may available at only a particular machine, and either the software cannot be moved, or it is less expensive to move the process.
-5. Data access: If the huge amount of data requires in the computation, it may be more efficient to have a process run remotely than to transfer all the data.
+Load balancing: The processes (or sub processes) may be distributed across the network on different machines to balance the workload.
 
-Pg17END
+Computation speedup: The subprocesses of the single process can run concurrently on different machines then the total process turnaround time can be reduced.
 
-2.1.6.4 Difference between Distributed OS and Network OS
+Hardware preference: The particular process may need some specialized processor for execution.
+
+Software preference: The needed software by process may available at only a particular machine, and either the software cannot be moved, or it is less expensive to move the process.
+
+Data access: If the huge amount of data requires in the computation, it may be more efficient to have a process run remotely than to transfer all the data.
+
+Pg17 END.
+
+
+1-18
+
+Difference between Distributed OS and Network OS
 
 Distributed operating system attempts to achieve complete transparency in order to offer a single system view to the user. Whereas achieving full transparency with network operating system is not possible. As we have seen for remote login, user has to explicitly log into remote machine. In remote copy user knows the machine to which he/she is copying the files. The main advantage of network operating system is that it provides scalability.
+Distributed OS (DOS)	
 
-Comparison Table:
+1.	Degree of transparency is very high for multiprocessor OS. <br> Degree of transparency is high for multicomputer OS.
 
-| Aspect | Distributed OS (DOS) | Network OS (NOS) |
-|--------|---------------------|------------------|
-| Transparency | Very high for multiprocessor OS<br>High for multicomputer OS | Low transparency<br>User aware of remote operations |
-| OS Consistency | Same operating system on all nodes | Different OS may be present on different nodes |
-| OS Copies | Multiprocessor: 1 copy<br>Multicomputer: n copies | Multiple independent copies |
-| Communication | Shared memory (multiprocessor)<br>Message passing (multicomputer) | Message passing only |
-| Resource Management | Global and central (multiprocessor)<br>Global and distributed (multicomputer) | Distributed and autonomous |
-| Scalability | No scalability (multiprocessor)<br>Moderate scalability (multicomputer) | High scalability |
-| Openness | Not open, optimized for performance | More open and flexible |
+2.	Same operating system is present on all nodes in both cases (Multiprocessor OS and Multicomputer OS).	
+3.	As multiple processors present in single machine, number of copies of multiprocessor OS is one. <br> As multiple machines are present multiple (n) copies of multicomputer OS are required.	
+4.	In multiprocessor OS basis for communication is shared memory. Processors share the memory to communicate with each other. <br> In case of multicomputer OS, Many machines communicate with each other by passing the messages. Message passing is basis for communication.	
+5.	In multiprocessor OS resource management is global and central. <br> In multicomputer OS resource management is global and distributed.	
+6.	In multiprocessor OS there is no scalability as single machine in which multiple processors are presents. <br> Multicomputer OS supports for moderate scalability.	
+7.	Both multiprocessor OS and multicomputer OS are not open. <br> These OS are developed to optimize the performance.
 
-2.1.7 Real Time Systems
 
-QUESTIONS:
-- Define real time operating system. List any four applications of it.
 
-QUESTIONS:
-- Explain real time OS. Explain its types.
 
-Pg18END
 
-For Real time operating systems time constraints are a key parameter. If the completion of particular task should happen in given time constraints or action completely must take place at a certain instant (or within a certain range), we have a hard real-time system.
+
+
+
+Network OS (NOS)
+
+1.Degree of transparency is low.
+2. Operating system on different nodes is different.
+3. As multiple machines are present multiple (n) copies of NOS are required.
+4.In network OS, basis for communication is files.
+5. In network OS resource management is per node. Hence it is easy to scale the system.
+6. Network operating system offers the scalability.
+7. 	Network operating system is openness. Modern operating systems are built with microkernel design.
+
+
+
+
+1.2.7 Real Time Systems
+
+Q. Define real time operating system. List any four applications of it. (W-19, W-23)
+
+Q. Explain real time OS. Explain its types. (S-23)
+
+Pg 18 end.
+
+
+
+
+
+
+
+
+1-19
+For Real time operating systems time constrains are a key parameter. If the completion of particular task should happen in given time constraints or action completely must take place at a certain instant (or within a certain range), we have a hard real-time system.
 
 In a soft real-time system, the missing of an occasional deadline is acceptable. Digital audio or multimedia systems are the examples of this class. VxWorks and QNX are the well-known real-time operating systems. Each task should be completed within the associated deadline to that task and missing a deadline can cause affects ranging from undesired to catastrophic.
 
@@ -1177,70 +1580,1666 @@ The embedded systems are becoming more multifaceted and complex today. Also thes
 
 Real time Operating Systems must respond quickly. These systems are used in an environment where a large number of events (generally external) must be accepted and processed in a short time. Real time processing necessitates quick dealing and characterized by providing instant response. For example, a measurement from a petroleum refinery indicating that temperature is getting too high and might demand for immediate attention to avoid an explosion.
 
-In real time operating system swapping of programs from primary to secondary is not frequent. Most of the time, processes remain in primary memory in order to provide quick response, therefore, memory management in real time system is less demanding compared to other systems.
+In real time operating system swapping of programs from primary to secondary is not frequent. Most of the time. processes remain in primary memory in order to provide quick response, therefore, memory management in real time system is less demanding compared to other systems.
 
 The primary functions of the real time operating system are:
 
-1. Management of the CPU and other resources to fulfill the requirements of an application.
-2. Synchronization with and responding to the system events.
-3. Efficient movement of data among processes and carrying out coordination among these processes.
+Management of the CPU and other resources to fulfill the requirements of an application.
 
-Along with the primary functions discussed, there are also secondary functions which plays important role in improvement of the performance:
+Synchronization with and responding to the system events.
 
-1. Efficient primary memory management.
-2. To offer a restricted access to the computer resources.
+Efficient movement of data among processes and carrying out coordination among these processes.
+
+Along with the primary functions discussed, there are also secondary functions which plays important role In improvement of the performance.
+
+Efficient primary memory management.
+
+To offer an restricted access to the computer resources.
 
 Few more examples of real time processing are:
 
-1. Systems controlling air traffic
-2. Immediate updating offering systems
-3. Systems giving information in minutes about stock prices
+1. Systems controlling air traffic.
+
+2. Immediate updating offering systems.
+
+3. Systems giving information in minuets about stock prices.
+
 4. RADAR
-5. Reservation system for Airlines
 
-2.1.8 Mobile OS
+5. Reservation system for Airlines.
 
-Mobile operating system is used for phones, tablets and for some other mobile devices.
+1.2.8 Mobile OS
+
+Mobile operating system is used for phones tablets and for some other mobile devices.
 
 Personal Digital Assistants (PDAs), for example palm and pocket-PCs and cellular telephones are the examples of handheld systems. Several of such system uses special-purpose embedded operating systems. These devices are having small size and have a small amount of memory, slow processors, and small display screens.
 
-Physical memory size of these devices is between 512 KB and 128 MB. Therefore, it is a job of operating system and applications to manage memory efficiently.
+Physical memory size of these devices is between 512 KB and 128 MB. Therefore, it is a job of operating system
+
+and applications to manage memory efficiently.
 
 A second concern to developers of handheld devices is the speed of the processor used in the devices. Handheld devices require faster processors with compare to PC. Faster processors need more power. So it is obvious that, handheld devices require large battery size and will occupy more space for battery.
 
-Pg19END
 
-Therefore, most handheld devices use smaller, slower processors that consume less power. As a result, the operating system and applications must be designed not to tax the processor.
+Pg19 END.
 
-2.1.8.1 Android OS
+1-20AAA
+Therefore, mast handheld devices use smaller, slower processors that consume less power. As a result, the operating system and applications must be designed not to toll the processor.
 
-Android operating system combines open-source code with closed source third-party applications. Android Open Source Project (AOSP) is open source part of the operating system and is totally open and free to be used and modified by anyone.
+1.2.8(A) Android OS
 
-The main goal of Android is to support a rich third-party application environment, which needs a stable implementation and API for applications to run against. CDD (Compatibility Definition Document) defines the way the Android must act to be compatible with third party applications. The requirement for compatible Android device is specified in CSS.
+Android operating system combines open-source code with closed source third-party applications. Android Open Source Project (AOSP) is open source part of the operating system and is totally open and free to be used and modified by anyone
+
+The main goal of Android is to support a rich third-party application environment, which needs a stable Implementation and API for applications to run against. CDD (Compatibility Definition Document) defines the way the Android must act to be compatible with third party applications. The requirement for compatible Android device is specified in CSS
 
 Following are design goals of Android:
 
-1. To offer a full open-source platform for mobile devices. The open-source part of Android is a bottom-to-top operating system stack.
-2. To offer strong support for proprietary third-party applications with a robust and stable API. Maintaining the open-source and stable platform is challenging adequate for proprietary third-party applications.
-3. To permit all third-party applications, including those from Google, to compete on a level playing field.
-4. To offer the user an application security model, preventing them to trust on third-party applications. The operating system should provide the security to the user from misbehavior of applications, including crash and misuse of the device and the user's data on it.
-5. Making mobile and user interaction easy and efficient by paying short amounts of time in many apps. User should get facility for quick interaction with all the applications. For example, quick look at new received email, receiving and sending an SMS message etc.
-6. All application processes of users should be managed in such a way that, they do not have to worry about closing applications when after using them. It is possible for OS to fall as applications requires more RAM which is not available in device. So OS should be able to close and start applications as per requirement.
-7. Support applications to interoperate and collaborate in rich and secure ways.
-8. Creating the general purpose operating system just like desktop operating system.
+To offer a full open-source platform for mobile devices. The open-source part of Android is a bottom-to-top
 
-2.1.8.2 Android Architecture
+operating system stack
 
-The Android is organized as layered architecture as shown in Fig 2.2.
+To offer strong support for proprietary third-party applications with a robust and stable API. Maintaining the open-source and stable platform is challenging adequate for proprietary third-party applications.
 
-Applications
-Application Framework
-Libraries
-Android Runtime
-Linux Kernel
+To permit all third-party applications, including those from Google, to compete on a level playing field.
 
-Figure 2.2: Android Architecture
+To offer the user an application security model, preventing them to trust on third-party applications. The operating system should provide the security to the user from misbehaviour of applications, including crash and misuse of the device and the user's data on it.
+
+Making mobile and user interaction easy and efficient by paying short amounts of time in many apps. User should get facility for quick interaction with all the applications. For example, quick look at new received email, receiving and sending an SMS message etc.
+
+All application processes of users should be managed in such a way that, they do not have to worry about closing applications when after using them. It is possible for OS to fall as applications requires more RAM which is not available in device. So OS should be able to close and start applications as per requirement
+
+Support applications to interoperate and collaborate in rich and secure ways.
+
+Creating the general purpose operating system just like desktop operating system.
+
+1.2.8(B) Android Architecture
+
+The Android is organized as layered architecture as shown in Fig. 1.2.1.
+
+Appicatoine
+
+Appliaction hamew
+
+Ltranes
+
+Antrod run time
+
+Linus Karter
+
+Fig. 1.2.1: Android Architecture
 
 Each layer includes many program components as described below. The services offered by each layer is different from other layer and each layer offers different types of services.
 
-Pg20END
+Pg 20 END.
+
+
+
+
+
+
+1-21
+1. Applications
+
+
+Applications in this layer are implemented in java language. The various applications are: Dialer, SMS/MMS, IM, Browser, Camera, Alarm, Calculator, Contacts, Voice Dial, Email, Calendar, Maps, Media Player, Album, Clocks and many more.
+
+2. Application Framework
+
+As source code of Android is publically open, developer can build rich and innovative applications. The framework. API used by core application, can be accessed fully by developers of applications. It is also offered that, any application can use the capabilities published by other application, thereby simplifies the reuse of components. Following are the components of this layeг.
+
+Activity Manager: It performs function of management of lifecycle of applications and offers a common navigation backstack
+
+Window Manager: The job of window manager is to manage window surface. Organizing screen layouts, locating drawing surface are some of the activity performed by window manager.
+
+View Manager: Viewing the window is the function of view manager.
+
+Contents Manager: Facilitates the applications to access data from other application or to share their data.
+
+Notification Manager: It sends the notifications. For example, we get notifications if battery goes low. Programmer can also provide implementation that allows the application to display customer alerts in status bar.
+
+Package Manager: It manages other packages if it has instant in machine.
+
+Telephone Manager: It handles receiver call or voice calls.
+
+Resource Manager: It offers access to non-code resources such as Graphics localized string and layout files.
+
+Location manager: It finds location of mobile devices. Ex Map, GPS, or cell tower.
+
+XMPP service Manager: Manages the services on mobile devices such as ringtones, music application, browsers etc.
+
+3. Libraries
+
+It is the third layer in architecture as shown in Fig. 1.2.1. The communication to this layer is through application framework layer and this communication take place through Java Native Interface (INI) package.
+
+Libraries layer contains total nine components as explained as follows:
+
+Surface Manager: This manager offers frame, button, text field etc and helps to set its size. Surfaces rendered by components of the frame are managed by this manager.
+
+Open GLIES: It offers 3D graphics libraries.
+
+SQLite: It is lightweight relational database used to store data as android applications are also lightweight.
+
+File system can also be used to store data.
+
+Media Framework: This framework is called by Android API to play and view video-audio with good quality.
+
+Scalable Graphics Libraries (SGL): It implements low level graphics with the use of JNI.
+
+WebKit: A browser support offered by it and support browsers such as Google Chromes and Apple safari. It also supports Java Script, CSS, HTML, jQuery, Ajax.
+
+Libe: It is C language library.
+
+Secured Socket Layer (SSL): It offers security in mobile online transactions, chats, messages etc and supports for HTTP and TCP protocol.
+
+FreeType: Offers support for font quality, image, etc.
+
+
+
+
+
+
+
+
+
+
+1-22
+
+4. Android Run Time
+
+
+In this layer, two components work. These are Dalvik Virtual Machine (DVM) and Core Libraries.
+
+Dalvik Virtual Machine (DVM)
+
+It is one type of Java Virtual Machine (JVM) and used to run applications in android devices. Its design is optimized for less memory and processing power.
+
+After a class file compiled, a dex is generated and run by DVM. It offers higher efficiency in the environment having limited resources.
+
+DVM also provides memory management, threading, security and isolation support.
+
+Core Libraries
+
+These libraries offer most of the services offered by Java SE libraries. It includes Data structures, File Access, Network Access, Utilities and Graphics.
+
+5. Linux Kernel
+
+The complete Android 05 is constructed on the top of Linux 2.6 kernel and some architectural modifications are carried out by Google. This layer contains ten components which are drivers.
+
+The generated dxt file interacts with Linux kernel and invokes appropriate drivers so that it will be able to communicate with related drivers.
+
+These ten drivers present in this layer are: Display driver, Camera driver, Bluetooth driver, Flash memory driver, Binder driver, WIFI driver, USB driver, Keypad driver, Audio driver and Power management driver.
+
+1.2.8(C) IOS
+
+iPhone OS is developed by Apple Inc. and it is a mobile operating system.
+
+In the year 2007, 105 was released which included iPhone and iPod Touch.
+
+In every year, at least one version of iPhone and iPad is launched by the company
+
+The IOS SDK has evolved from 1.0 to 6.0. IOS 6.0, the latest SDK is the only officially supported version in Xcode 4.5 and higher.
+
+In iPhone OS, each application is made up of one or more threads, which represents a single path of execution.
+
+Every applications starts with a single thread, which runs the application's main function. The applications can have additional threads with executes a specific function.
+
+Each thread has its own execution stack and the kernel schedules its run time separately. As threads are in the same process space, they can communicate with other threads and processes.
+
+Most device drivers never need to take primary interrupts because their interrupt lines don't cascade into the system's interrupt controller.
+
+The iPhone OS provides tools for system profiling. The Shark application lets user selectively find out what file system-related function calls the application makes. When user set up the session configuration, he can tell Shark exactly which function calls you want it to watch. A list of system calls includes all the file 1/0 calls plus fcntl, flock, fstat, fsync, link, Istat, Istatv, and stat.
+
+iPhone has no garbage collection, developer has to clean up the variables after use them, otherwise the program will leak memory. Though NSObject class has accounting stuff help to keeps the track of how many other objects are currently using the object, but it is not automatic and developers have to adjust that by themselves.
+
+iPhone do not have the power management toolkit as Mac OS does.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-23
+
+Operating System
+
+Operating System Services and Components
+
+The IPhone OS security implementation includes a daemon called the Security Server that implements several security protocols, such as access to keychain items and root certificate trust management. The Security Server has no public API. Instead, applications use the Keychain Services API and the Certificate, Key, and Trust services API, which in turn communicate with the Security Server.
+
+
+1.2.9 Difference between Time Sharing System and Real Time System
+
+Dillerence between Time Sharing System and Real Time Bystem
+
+Sr No
+
+1
+
+Time Sharing System
+
+Real Time System
+
+Multiple users are permitted by time shared operating system to share the machine at the same time. Time shared system is capable of completing each action or command in a very less time.
+
+For Real time operating systems time constrains are a key parameter.
+
+2.
+
+A particular user program executes in allocated time by system and after expiration of slot, system gets allocated to other user program. So the allocation of computer resources in time slots to several programs simultaneously is in time sharing manner.
+
+If the completion of particular task should happen in given time constraints or action completely must take place at a certain instant, we have a hard real-time system. In a soft real-time system, the missing. of an occasional deadline is acceptable.
+
+Consider the example of multiple users logged in same server. The resources in server machine like 3. CPU gets allocated to each user on time sharing basis giving the feeling to each user that only he or she is using the server machine exclusively.
+
+Digital audio or multimedia systems are the examples of this class.
+
+These systems makes use of CPU scheduling and multiprogramming to offer each user with a small 4. quantum of time slot to carry out the designated work. Many users can share the resources of computer system at the same time.
+
+5
+
+6
+
+Each task should be completed within the associated deadline to that task and missing a deadline can cause affects ranging from undesired to catastrophic.
+
+The development of time sharing system was aimed to offer an interactive utilization of the computer system to its user.
+
+This is aimed to work in real time environment where keeping the deadline is important
+
+Today all modern OS are time sharing OS.
+
+5-23
+
+VxWorks and QNX are the well-known real-time operating systems.
+
+1.2.10 Difference between Multiprogramming and Multitasking
+
+Q. Differentiate between Multi programmed and Multitasking operating system.
+
+W-22
+
+Sr. No.
+
+1.
+
+Multiprogramming
+
+Multitasking
+
+A computer running more than one program at a time is called as multiprogramming
+
+In multitasking, tasks shares the common resource le CPU.
+
+
+
+
+1-24
+
+No
+
+2
+
+3.
+
+Multiprogramming
+
+
+Operating System Services and Components
+
+Multitasking
+
+Process manager implements the process management Nunctions. In multiprogramming, single CPU is shared among many processes. If many processes, remain busy in completing 1/0, CPU is allocated to only one process at a given point of time.
+
+Multitasking operating system allows the execution of multiple processes simultaneously. Multiple tasks are managed and handled at the same time. For example, UNIX, Windows 2000 are multitasking operating systems.
+
+The idea behind multiprogramming is that CPU does not remain idle. When 1/0 is going on for one process or context switch occurs then CPU gets allocated to other process.
+
+In multitasking, several tasks are performed in parallel. Although we say so but practically no tw tasks on a single processor machine can be executed simultaneously. In fact, CPU switches from one task to the next task so quickly that appears as if all the tasks are executing at the same time.
+
+1.3 Command Line based Operating System
+
+1.3.1 DOS (Disk Operating System)
+
+MS DOS is Microsoft Disk Operating System. It is single user, non-graphical line-oriented command or menu-driven operating system. It has simple interface but interface is less user friendly.
+
+The different versions of DOS which is available are 2.0, 3.0, 3.2, 4.0, 5.0, 6.0, 6.2, 6.22, 7.0, and 7.2. MSDOS.SYS, 10.SYS and COMMAND.COM are three system files of DOS. CONFIG.SYS and AUTOEXEC.BAT are the user configuration files.
+
+10.SYS file contains the device 1/0 routines for management of 1/0 devices and the system initialization routines.
+
+JO.SYS file is input/output system file of DOS.
+
+This program offers interface between the hardware devices and software of the system. DOS kernel actually resides in MSDOS.SYS file and offers all of the support functions needed to application programs. This file contains the file management and the disk buffering management capabilities. It keeps track of all the disk access of an application program and remains permanently in memory.
+
+COMMAND.COM is a command Interpreter which displays the system prompt. it executes command typed in by the user and handles user interface. Device drivers are loaded when operating system takes control of the computer. These device drivers are required for configuring operating system for running special devices.
+
+CONFIG.SYS file contains reference to device drivers. When system is booted, this file automatically gets executed. Keys, paths to search files and messages to display on screen are defined using this file. Operating system executes command in this file each time the system is started.
+
+Following are some of the features of DOS
+
+Single user OS and permits execution of one task at a time.
+
+It offers command user interface.
+
+Two types of commands (internal and external commands) are present.
+
+Supports three executable files EXE files, COM files and BAT files
+
+Supports for hierarchical directories.
+
+it is written completely in 8086 assembly language.
+
+File name is supported in two parts, primary name and secondary name.
+
+005 facilitate the computer system to carry out input and output operations
+
+
+
+
+
+
+
+1-26
+
+Byte size
+
+
+Content
+
+4
+
+File size
+
+2
+
+Date of creation or last updating
+
+2
+
+Time of creation or last updating
+
+0
+
+Reserved
+
+1
+
+Current record number
+
+4
+
+Relative record number
+
+1.3.1(C) Internal and External Commands in DOS
+
+Internal Commands
+
+When DOS is loaded, then the internal commands are automatically loaded in the memory. These commands can beused without the need of any DOS file or diskette. These commands are part of the COMMAND.COM file. MS DOS zarry out operation immediately after typing the internal commands. The internal commands are simple The common tasks, such as copying, renaming or erasing files, displaying a list of files in a diskette, creating and changing directories; changing the current date in your PC is carried out by using these commands.
+
+External commands
+
+The external commands are used for relatively complex tasks. Some of the examples of the tasks are copying an tire diskette, formatting a diskette; comparing or joining files, sorting text etc. For these commands, executable file exist on disk. The directory or subdirectory information needs to be provided to the DOS before executing this command.
+
+1.3.2 UNIX
+
+It was in early 1970s Bell Laboratory scientists developed well known OS called UNIX. Ken Thompson, a Bell Lab researcher was looking to do something interesting. He decided to write a stripped down MULTICS by himself on a discarded PDP-7 minicomputer.
+
+In spite of the small size of the PDP-7, his developed system worked and supported to his development work. Brian Kernighan, a researcher of Bell Laboratory, jokingly called it UNICS (Uniplexed Information and Computing Service). The spelling was afterward changed to UNIX.
+
+UNIX runs on a wider range of systems than any other operating system. It is the leading operating system and used on systems ranging from notebook computers to supercomputers. It was carefully designed with a clear objective in mind, and in spite of its age, is still recent and graceful.
+
+Many important design principles are demonstrated by UNIX. Some of these have been imitated by other systems. Although there are many versions and clones of the UNIX, the basic principles and system calls are much similar for all of them. In addition, the common implementation policies, algorithms, and data structures are similar, but there are some differences among all these versions.
+
+1.3.2(A) UNIX Goals
+
+UNIX has widespread facilities to allow people to work together and share information in controlled ways.
+
+UNIX system is simple, graceful, and consistent. For example, at the lowest level, a file should just be a collection of bytes. Having different classes of files for sequential access, random access, keyed access, remote access, etc. (as mainframes do) just gets in the way.
+
+
+
+
+
+
+
+
+
+1-27
+
+Operating System Services and Components
+
+The principle of least surprise is used in writing the commands. UNIX provides power and flexibility.
+
+One of the basic guidelines behind UNIX is that every program should do just one thing and do it well. Thus compilers do not produce listings; because other programs can do those better. Useless redundancy is avoided in giving the commands.
+
+1.3.2(B) Interfaces to UNIX
+
+Following Fig. 1.3.1 shows layers in UNIX system.
+
+Users
+
+User Interface
+
+Standard utilities 
+
+Library interface
+
+Kernel mode
+
+Dandard sbrary
+
+System call interface
+
+Unix operating system
+
+Gyalem hardware
+
+Fig. 1.3.1: Layers in UNIX system.
+
+System hardware: It consists of the CPU, memory, disks, terminals, and other devices.
+
+UNIX operating system : It's function is to control the hardware and make available a system call interface to a the programs. These system calls permit user programs to create, delete and manage processes, files, and othe resources.
+
+Standard library: Programs issues a trap Instruction to switch from user mode to kernel mode and makes system call by putting argument in stack or register. Library contains procedures implemented in assembly language for these system calls.
+
+Standard utilities: These programs are invoked by users while working on terminal. It includes the shell. compilers, editors, text processing programs, and file manipulation utilities.
+
+User: All the users interacting with system.
+
+There are three interfaces, that is, true system call interface, the library interface, and the interface formed by the set of standard utility programs.
+
+1.3.2(C) The UNIX Shell
+
+In UNIX command line interface is called the shell. Bourne shell (sh), ksh, bash are the examples of the shell.
+
+Here we will discuss the bourne shell. When the shell starts up, it initialize itself, then types a prompt character. often a percent or dollar sign, on the screen and waits for the user to type a command line.
+
+When the user gives command by using command line, the shell removes the first word from it. After extraction of this first word, the shell assumes that, it is the name of a program to be run. Then it finds this program, and if found, it runs the program.
+
+Until the program terminates, shell suspends itself, at which time it attempts to read the next command. The shell is just a simple common user program having capability to read from and write to the terminal, and the power to run other programs. Following is the description of bourne shell.
+
+1.3.2(D) UNIX Utility Programs
+
+Apart from the shell, user interface to UNIX consist of a large number of standard utility programs. These are categorized as file and directory manipulation commands, filters, program development tools such as editors and compilers, text processing, system administration and last is miscellaneous.
+
+
+
+
+
+
+
+
+
+
+
+
+1-28
+The POSIX 1003.2 standard denotes the syntax and semantics many of these, primarily in the first three categories.
+
+The reason behind standardizing them is that, anyone should be able to write shell scripts that use these
+
+programs and work on all UNIX systems. In addition to these standard utilities, there are many application programs as well, such as web browsers, imags viewers, etc.
+
+Following are the some of the examples of utility programs and its use:
+
+Program
+
+Use
+
+cat
+
+Concatenate multiple files to standard output.
+
+chmod
+
+Change file protection mode.
+
+cp
+
+Copy one or more files.
+
+cut
+
+Cut columns of text from a file,
+
+grep
+
+Search a file for some pattern.
+
+head
+
+Extract the first lines of a file.
+
+Is
+
+make
+
+List directory
+
+Compile files to build a binary.
+
+mkdir
+
+Make a directory
+
+od
+
+Octal dump a file.
+
+paste
+
+Paste columns of text into a file.
+
+pr
+
+Format a file for printing.
+
+Remove one or more files.
+
+rmdir
+
+Remove a directory.
+
+sort
+
+tail
+
+Sort a file of lines alphabetically.
+
+Extract the last lines of a file.
+
+tr
+
+Translate between character sets.
+
+Following are some examples of these programs, starting with file and directory management.
+
+cp abc xyz
+
+Coples file abc to xyz, leaving the original file intact. In contrast,
+
+mv abc xyz
+
+Coples abc to xyz but removes the original cat concatenates the many files. It reads each of its Input files and coples them all to standard output, one after another. Files can be removed by the rm command. The chmod command allows the owner to change the rights bits to modify access permissions. Directories can be created with mkdir and removed with rmdir. Is lists the list of the files in a directory.
+
+1.3.2(E) Information, File, Process/Memory Management Overview
+
+The kernel of the UNIX is divided in mainly two parts:
+
+o Information Management
+
+o Process Management
+
+
+
+
+
+
+
+
+
+
+1-29 
+Memory management is very closely related to process management. As a result, it is understood as part of process management. Information Management component of UNIX kernel contains driver for various devices. Any device in UNIX is treated as file. /dev directory in root directory contains file for each device.
+
+This file contains information of specific characteristics of that device. These characteristics are used by generalized device driver to obtain specially made device driver for that device. Again devices can be character devices or block devices. Device 1/0 needs following information:
+
+Device types and its characteristics
+
+The addresses of the driver program
+
+The memory buffer reserved for the device.
+
+UNIX process execution is either in user mode or kernel mode. Due to process executes system call or interrupt execution mode of process changes from user mode to kernel mode. CPU-bound processes gets lower priority with compare to I/O bound processes.
+
+Equal priority processes obtain their CPU slices in round robin manner. If higher priority process does not find space to execute then swapping or demand paging is used. In swapping whole image gets swapped. In demand pages some pages are swapped.
+
+In order to manage process, a several data structures are maintained by kernel. These are U-area similar to that of process control block. User stack used in user mode and kernel stack is used in kernel mode of that process to store parameters or return addresses of functions or system calls.
+
+In kernel mode process can access its whole address space but in user mode it can access user portion of user address space. User portion of process includes text, data and stack regions. Kernel portion of user address space such as U-area can be swapped to free the memory but some portion is not swappable.
+
+Kernel maintains process table to contain entry about each process. It cannot be swapped as it contains Information about process scheduling and swapping.
+
+The following Fig. 1.3.2 shows various modules and relation among them.
+
+o User programs need various operating system services. These programs call up these services either directly or through library programs.
+
+The system call interface permits the user applications to get access to exact kernel functions. Operating system also has primitive routines that interact straightway with the hardware. Below the system call Interface, the system is separated into two main components, one deal with process control and the other deal with file management and I/O. The process control subsystem is accountable for memory management, the scheduling and dispatching of processes, and the inter-process communication and synchronization of processes.
+
+The file system is responsible for data transfer between memory and external devices. It exchanges the data either as a stream of characters or in blocks. To accomplish this, a multiple device drivers are used. A disk cache approach is used to accomplish the block transfer.
+
+Traditional UNIX system is designed to run on a single processor. It does not have facility to protect data structures from simultaneous access by many processors. Its kernel is not very flexible and supports only single type of file system, process scheduling strategy, and executable file format.
+
+The traditional UNIX kernel is not designed to be extensible and has a small number of services for code reuse. Therefore new features were added to the various UNIX version.
+
+
+1-30
+
+Operating System Services and Components
+
+User Program
+
+Tike
+
+Schedular
+
+Memory
+
+Devite d
+
+menagement
+
+Hardware control
+
+Hardware
+
+
+Image details not copied of fig 2
+1.3.2
+Fig. 1.3.2: Various UNIX modules and relations among them
+
+1.4 GUI based Operating System
+
+1.4.1 Windows History
+
+By taking inspiration from the user interface of the Apple Lisa, the forerunner to the Apple Macintosh, Microsoft gave MS-DOS a graphical user interface (shell) that it called Windows. Windows 1.0 released and it was failure.
+
+Windows 2.0 was designed for the PC-AT and released in 1987, was not succeed. Windows 3.0 for the 386 (released in 1990), and especially its successors 3.1 and 3.11, caught on commercial successes.
+
+All of these early versions of Windows were not true operating systems. Windows 95 released in August 1995 still had the features of MS-DOS included.
+
+After Windows 95, which had done very well and became successful shown the way for development of further versions: Windows 98 and Windows Me.?
+
+By the late 1980s, Microsoft came to the conclusion that constructing a modern 32-bit operating system on top of MS-DOS certainly was not the beneficial way to go. In 1989 Microsoft made appointment of Dave Cutler, who was responsible for development of very successful RSX-11M and VAX/VMS operating systems at DEC (Digital Equipment Corporation). Cutler's contract was to build up a modern 05, which was portable to architectures except the Intel x 86 families, and so far compatible with the OS/2 system and portable UNIX standard, POSIX. At that time, Microsoft was developing 05/2 in cooperation with IBM. This system was named NT (New Technology).
+
+The release of first version of Windows NT 3.1 is done in 1993. It has implemented identical GUI as Windows 3.1 and the follow-on to Windows 3.0. Windows NT 3.1 was a new 32-bit OS with the capability to support older DOS and Windows applications in addition to offering OS/2 support.
+
+A number of versions of NT 3.x pursued with support for further hardware platforms. Again in the year 1996, Microsoft made NT 4.0 publically available with the similar user interface as Windows 95. Extension to the NT 4.0, Microsoft released the next major improve of the NT OS in year 2000: Windows 2000. The core Executive and Kernel architecture is basically the identical with in NT 3.1, but new features have been implemented.
+
+Windows Vista was released in November 2006 by making updates in windows XP, but it was not well received. The enhancement done in Windows Vista later appeared in Windows 7, these improvements were overshadowed by Windows Vista's apparent slowness and compatibility problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-31
+
+Operating System
+
+Operating System Services and Components
+
+Microsoft acted in response to criticisms of Windows Vista by enhancing its engineering processes and working more closely with the producers of Windows hardware and applications. After improvement the resultant version was Windows 7, which was released in October 2009, along with corresponding server editions of Windows.
+
+Followings Microsoft's design goals for windows:
+
+Security Access Control List (ACL) is used to protect system objects, including flies, registry settings, and kernel objects. ACLs are susceptible to user and programmer errors.
+
+Rellability: The reltability of Windows Improved because of features like Maturity in the source code, extensive stress testing of the system, Improved CPU architectures and automatic detection of many serious errors in drivers from both Microsoft and third parties.
+
+Windows and POSIX application compatibility: Several techniques are implemented in Windows to run applications regardless of incompatibilities. Similar to Windows XP, Windows contains a compatibility layer placed between applications and the Win32 APIs. Because of this layer, Windows 7 seems to be bug-for-bug compatible with previous versions of Windows.
+
+High performance: In the desktop systems 1/0 performance is major problem. Server systems have CPU bottleneck and in large multithreaded and multiprocessor environments locking performance and cache-line management are keys to scalability. The Windows is designed for all these systems. Windows NT use asynchronous 1/0, optimized protocols for networks, kernel-based graphics rendering, and sophisticated caching of file-system data to enhance the performance.
+
+Extensibility: Extensibility is the capability of an operating system to support for advances in computing technology. Windows uses a layered architecture to cope with these changes. The Windows executive provides the basic system services and abstractions that support shared use of the system.
+
+Portability: Windows is implemented in C and C++ with little use of assembly code. The architecture-specific source code is comparatively little. If Windows ported to a new architecture, only kernel gets affected. Because the user-mode code entirely is written to be architecture independent.
+
+International support: Different localities are supported by Windows by means of the National-Language-Support (NLS) API. The NLS API offers specific functions to format dates, time, and money in accordance with national customs. String matching is focused to justify changing character sets.
+
+Energy efficiency: In order to reduce energy use, Windows has put into practice several techniques. The processors are moved to lower power states when possible. Additionally, Windows may set the complete system into a low-power sleep state if it is not being actively used, or may even save all of memory to disk and shut the computer off (hibernation).
+
+Dynamic device support: A PC could abruptly be connected to or disconnected from a complete set of peripherals. In a modern PC, the situation has totally changed. The design of PC's allows users to plug and unplug a huge host of peripherals constantly. Some examples are external disks; thumb drives, cameras, and the like are continually coming and going.
+
+Following are some of the features of Windows OS:
+
+It has built in and improved version of disk operating system.
+
+Large number of virtual device drivers are present in Windows for various devices.
+
+Graphical user interface.
+
+It has Plug and play capabilities.
+
+Different icons for application, documents and program and other objects are provided.
+
+Easy Internet access, multitasking, expansion of memory limitations, online support.
+
+Various fonts and styles of different languages are supported.
+
+o Data transfer can be done from one application to other using clipboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-32
+
+1.4.1(A) Windows System Components
+
+Windows architecture follows a layered system approach of modules as shown in Fig. 1.4.1. The major layers are the HAL, the kernel, and the executive. All of these layers run in kernel mode, and a group of subsystems and services run in user mode.
+
+The subsystems that run in user mode are classified as the environmental subsystems which imitate distinct operating systems, and the protection subsystems, which offer security functions. The benefit of such layered architecture is that communications between modules are kept straightforward.
+
+Hardware Abstraction Layer: The major goal of Windows 7 was to build the operating system which would be portable across platforms. The HAL is responsible for hiding dissimilarities in hardware chipset from upper levels of the operating system.
+
+Kernel: Following responsibilities are handled by kernel layer
+
+Scheduling of threads
+
+Low-level processor synchronization
+
+Interrupt and exception handling
+
+Switching between user mode and kernel mode.
+
+Executive
+
+The executive is the upper portion of the opera ting system. It is written in C and is architecture Independent, The executive consists of ten components, each of which is just a collection of procedures that work together to accomplish a certain task.
+
+These components are object manager, 1/0 manager, process manager, virtual memory manager, security reference monitor, cache manager, plug-and-play manager, power manager, registry and booting, advanced local procedure call facility.
+
+Logon process
+
+applications 05/2
+
+applications Winte
+
+Win32 applications
+
+MS-DOS applications
+
+applications
+
+Security subsystem
+
+052 subsystam
+
+Win18 VDM
+
+MS-DOS VOM
+
+Posic
+
+Authentication package
+
+Security account manager database
+
+Win32 subsystem
+
+User mode
+
+Executive
+
+File system Cache manager Device
+
+Object manager
+
+curity tolerance monitor
+
+Process manager
+
+Plug and play manager
+
+Virtual memory manager
+
+Local procedura es facility
+
+Window manager
+
+Kemel
+
+Network drivers
+
+Hardware abstraction layer
+
+Hardware
+
+Graphio device drivers
+
+Fig. 1.4.1: The block diagram of Windows
+Fig 1.4.1 is also slightly incomplete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-33
+
+1.4.2 Linux
+
+Operating System Services and Components
+
+1.4.2(A) History of Linux
+
+Following is the brief history of Linux 05:
+
+
+In 1987, MINIX was designed with microkernel architecture and it was one of the first UNIX-like systems. The thought behind a microkernel is to offer minimum functionality in the kernel to make it reliable and efficient. As a result, memory management and the file system were kept out into user processes. The kernal handled message passing between the processes and other minute functions.
+
+The kernel was having 1600 lines of C code and 800 lines of assembly language code. Microkernels are more flexible and they are easy to understand and maintain due to their greatly modular structure. After this development, a Finnish student, Linus Torvalds, decided to write another UNIX clone, named Linux.
+
+He has included many features in Linux which MINIX was lacking. It was a monolithic rather than a microkernel design, with the complete operating system in the kernel. The first version of Linux 0.01 with code size totaled 9,300 lines of C and 950 lines of assembler was released in 1991.
+
+Originally, Linux ran only on the 386, It was quickly ported to other platforms and now runs on a multiple machine, just as UNIX does. Linux version 1.0 was released in 1994. Its code size was 165,000 lines with a new file system, memory-mapped files and BSD compatible networking with sockets and TCP/IP. It also included many new device drivers. Many minor revisions followed in the next two years.
+
+The next major release 2.0 was made in 1996. It was designed to support 64-bit architectures with symmetric multiprogramming, new networking protocols and numerous other characteristics. Several standard UNIX components ported to Linux, Including over 1000 utility programs, X Windows and a great deal of networking software. Two different GUIs (GNOME and KDE) have also been written for Linux. Several Linux features such as system calls, programs, libraries, algorithms and Internal data structures are very similar to those of UNIX.
+
+Even though Linux does not use a microkernel design, it accomplishes many of the potential benefits of this approach by means of its particular modular architecture. Linux is designed as a collection of modules, a number of which can be dynamically loaded and unloaded. These relatively independent blocks are referred to as loadable modules. A module is an object file whose code can be linked to and unlinked from the kernel at runtime. Normally, a module implements some definite function, such as a file system, a device driver or some other feature of the kernel's upper layer. A module is executed in kernel mode on behalf of the current process.
+
+Hence, even though Linux may well thought-out to be monolithic, its modular structure conquers some of the complexities in developing and building the kernel.
+
+1.4.2(B) Features of Linux
+
+Q. State any two features of Linux
+
+It is free and open source OS.
+
+Supports Graphical User Interface (GUI) that is X Window System.
+
+S-23
+
+Linux is available in several languages, and supports most of custom keyboards as per the languages used worldwide.
+
+It has multiple application supports that can be downloaded from repository.
+
+It supports multiple users, multithreading, multitasking and networking as well.
+
+Linux is portable and can be installed on any machine.
+
+1.4.2(C) Components of Linux
+
+The Linux system comprises mainly three bodies of code, similar to most traditional UNIX implementations:
+
+Kernel: It keeps all the important abstractions of the operating system, together with things as virtual memory and processes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-34
+
+Operating System
+
+Operating System Services and Componenta
+
+Systein libraries telt defines a standard functions through which applications can interact with the kernel Most of the operating system functionality is implemented by these functions. This functionality does not need the full rights of kernel code.
+
+System utilities: These are the programs that carry out individual, specialized management tasks.
+
+For initialization and configuration of some characteristic of the system, some utilities need to be invoked only once. Many other utilities run permanently and called as daemons. Some of the tasks handled by these daemons are
+
+Responding to incoming network connections.
+
+Accepting logon requests from terminals.
+
+Updating the log files.
+
+In Linux design, a microkernel design approach is not used. However, it has a particular modular architecture from which it accomplishes many of the possible advantages of microkernel approach. Linux contains a set of modules, many of which can be dynamically loaded and unloaded as per the need. These modules are called as loadable modules. A module is considered as object file.
+
+The linking and unlinking of these modules code can be done with kernel at runtime. The implementation of module offers some definite function, for example a file system, a device driver, or some other characteristic of the kernels higher layer. A module does not execute in user mode.
+
+In fact, it is executed in kernel mode in aid of the current process. Consequently, even though Linux design reflects monolithic architecture, its modular structure conquers some of the trouble in developing and evolving the kernel.
+
+Following are the two important features of the Linux loadable modules:
+
+Dynamic linking: When the kernel is currently running in main memory, a kernel module can be loaded and linked into the kernel. In the same way, unlinking of module can be done and replaced from memory at any time.
+
+Stackable modules: There is hierarchical organization of modules. Individual modules provide services as libraries if invoked by client modules upper in the hierarchy, and as clients when they reference modules further down.
+
+1.4.3 Mac OS
+
+Mac OS is a graphical operating system developed by Apple Inc. It is the default operating system for Apple's Mac computers and is based on UNIX principles. MacOS combines the power and stability of a UNIX core with a modern, user-friendly graphical interface.
+
+Graphical User Interface (GUI)
+
+macOS features a graphical interface called Aqua. The GUI allows users to interact with the system through:
+
+Windows
+
+Icons
+
+Menus
+
+Pointing devices (mouse, touchpad)
+
+This makes macOS highly accessible and easy to use, even for users with little technical knowledge.
+
+Terminal and Command Line
+
+Although macOS is GUI-based, it also includes a Terminal application that gives users access to the UNIX command-line environment. This allows advanced users and developers to:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-35
+
+Execute shell commands (e.g. 18, od, chmod)
+
+Operating System Services and Components
+
+Automate tasks with scripts
+
+
+Use powerful tools like sah, curl, vim, and package managers like Homebrew
+
+Features of Mac OS as a UNIX GUI OS
+
+Graphical Interface: Clean, polished, and user-friendly interface.
+
+Multitasking: Ability to run multiple applications at once.
+
+Security: Built-in features such as Gatekeeper, FileVault, and sandboxing.
+
+Stability: Based on mature UNIX architecture, offering reliable performance.
+
+Software Support: Runs a wide range of applications including professional tools (eg, Final Cut Pro, Xcode).
+
+Developer Tools: Supports development with Xcode and supports programming languages like Swift, Python, Java, etc.
+
+Applications and Use Cases
+
+MacOS is used in:
+
+Personal Computing: For everyday tasks like web browsing, email, and media consumption.
+
+Professional Work: Especially in creative fields like video editing, music production, and graphic design.
+
+Software Development: Developers use macOS to create apps for IOS, macOS, watchOS, and tvOS.
+
+1.4.4 Difference between MS DOS and Windows
+
+Sr. No.
+
+1.
+
+2
+
+MS DOS
+
+Windows OS
+
+DOS only supports for single tasking.
+
+Windows OS is multitasking.
+
+DOS uses CLI (command line interface)
+
+3.
+
+Windows supports GUI (graphical user interface).
+
+It is a single user OS.
+
+It is a multi user OS.
+
+4.
+
+It is a single threading OS.
+
+It is a multithreading OS.
+
+5.
+
+It doesn't support the networking.
+
+It supports the networking.
+
+6.
+
+Less user friendly with compare to Windows.
+
+More user friendly with compare to DOS.
+
+7.
+
+DOS uses FAT 16 file system
+
+Windows uses FAT 32 file system
+
+8.
+
+DOS supports 2 GB of maximum partition size.
+
+Windows supports 2 TB or more partition size.
+
+1.4.5 Difference between GUI and CUI
+
+Q. Compare between CLI based OS and GUI based OS.
+
+Sr. No.
+
+GUI
+
+CUI
+
+1.
+
+GUI refers to Graphical User Interface.
+
+User interacts with computer using mouse.
+
+3.
+
+Navigation is easy.
+
+We deal with graphics and other visual clues.
+
+S-22, W-22. W-23
+
+CUI stands for Character User Interface
+
+2
+
+keyboard is needed to type commands in order to interact with the computer.
+
+Navigation is not easy
+
+4..
+
+We deal with text only.
+
+
+
+
+
+
+
+
+
+1-36
+
+Operating System Services and Components
+
+Sr. No.
+
+GUI
+
+CUI
+
+5.
+
+It is mare user friendly.
+
+It is less user friendly.
+
+6.
+
+7.
+
+Modern operating systems are GUI base.
+
+Modern OS does not use CUI.
+
+Example of GUI is Widows OS.
+
+DOS is the example of CUI.
+
+1.4.6 Advantages of Linux/UNIX over Windows
+
+Following are the advantages of Linux/UNIX over Windows:
+
+UNIX has more flexibility and run on types of architecture, together with main-frame computers supercomputers and micro-computers.
+
+UNIX and Linux offers more stability and does crash as frequently as Windows does, therefore of less administration and maintenance requirement is not as much of Windows.
+
+UNIX and Linux Include more security and access right features than Windows.
+
+UNIX and Linux have better processing capacity than Windows.
+
+Near about 90 percent of the Internet usage is dependent on UNIX OS running Apache, the most extensively used Web server.
+
+While using UNIX or Linux, for the purpose of software upgradations there is no need to pay for prerequisite software, which is required in case of Microsoft.
+
+Largely free or reasonably priced open-source operating systems, like Linux and BSD, with their flexibility and control, are very much appropriate to computer wizards. Currently, many programmers are implementing modern software at no cost for the fast expanding "open-source movement".
+
+UNIX also motivates new techniques to software design like modular approach to solve problems in place of developing large monolithic application programs.
+
+1.5 Different Services of Operating System
+
+Q. Explain any four services provided by Operating System.
+
+W-19. S-22. W-22, S-23, W-23
+
+Following are the six services provided by operating system for efficient execution of users application and to
+
+make convenience to use computer system:
+
+1. User Interface
+
+2. Program Execution
+
+3. 1/0 Operations
+
+4. File System Manipulation
+
+5. Communications
+
+6. Error Detection
+
+1. User Interface
+
+Almost all operating systems have a User Interface (UI). Two fundamental approaches for users to interface with the operating system are command-line interface and graphical user interface or GUI. Command interpreter executes next user-specified command. A GUI provides a mouse-based window and menu system as an interface.
+
+2. Program Execution
+
+The operating system provides an environment to run users programs efficiently. The resources needed to the programs to complete execution are provided by operating system ensuring optimum utilization of computer system. Memory allocation and deallocation, processor allocation and scheduling, multitasking etc functions are performed by operating system. The operating system has all rights of resource management. User program does not given these rights.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-37
+
+Advantages of Hill Climbing Algorithm
+
+1. Simplicity and Ease of Implementation. Hil Climbing is a simple and intuitive algorithm that is easy to understand and implement, making it accessible for developers and researchers alike.
+
+2. Versatility: The algorithm can be applied to a wide variety of optimization problems, including those with large search spaces and complex constraints. It's especially useful in areas such as resource allocation, scheduling, and route planning
+
+3. Efficiency in Finding Local Optima: Hill Climbing is often highly efficient at finding local optima, making it a suitable choice for problems where a good solution is required quickly.
+
+4. Customizability: The algorithm can be easily extended incorporate modified or to additional heuristics or constraints, allowing for more tailored optimization approaches.
+
+
+Challenges in Hill Climbing Algorithm
+
+1. Local Maximum Problem
+
+A local maximum occurs when all neighboring states have worse values than the current state. Since Hill Climbing uses a greedy approach, it will not move to a worse state, causing the algorithm to terminate even though a better solution may exist further along.
+
+How to Overcome Local Maximum?
+
+Backtracking Techniques: One effective way to
+
+overcome the local maximum problem is to use backtracking. By maintaining a list of visited states, the algorithm can backtrack to a previous configuration and explore new paths if it reaches an undesirable state.
+
+2. Plateau Problem
+
+A plateau is a flat region in the search space where all neighboring states have the same value. This makes it difficult for the algorithm to choose the best direction to move forward.
+
+How to Overcome Plateau?
+
+Random Jumps: To escape a plateau, the algorithm
+
+can make a significant jump to a random state far from the current position. This increases the likelihood of landing in a non-plateau region where progress can be made.
+
+Basics of Al and Problem Solving Techniques
+
+3. Ridge Problem
+
+A ridge is a region where movement in all possible. directions seems to lead downward, resembling a peak. As a result, the Hill Climbing algorithm may stop prematurely, belleving it has reached the optimal solution when, in fact, better solutions exist.
+
+How to Overcome Ridge?
+
+Multi-Directional Search: To overcome a ridge, the algorithm can apply two or more rules before testing a solution. This approach allows the algorithm to move in multiple directions simultaneously, Increasing the chance of finding a better path.
+
+Solutions to Hill Climbing Challenges
+
+To mitigate these challenges, various strategies can be employed:
+
+Random Restarts: As mentioned, restarting the algorithm from multiple random states can increase the chances of escaping local maxima and finding the global optimum.
+
+Simulated Annealing: This is a more advanced search algorithm inspired by the process of annealing in metallurgy. It introduces a probability of accepting worse solutions to escape local optima and eventually converge on a global solution as the algorithm "cools down."
+
+Genetic Algorithms: These are population-based search methods inspired by natural evolution. Genetic algorithms maintain a population of solutions, apply selection, crossover, and mutation operators, and are more likely to find the global optimum in complex search spaces.
+
+Applications of Hill Climbing in Al
+
+1. Pathfinding: Hill climbing is used in Al systems that need to navigate or find the shortest path between points, such as in robotics or game development.
+
+2. Optimization: Hill climbing can be used for solving optimization problems where the goal is to maximize or minimize a particular objective function, such as scheduling or resource allocation problems.
+
+3. Game Al: In certain games, Al uses hill climbing to evaluate and improve its position relative to an opponent's.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-38
+
+Operating System
+
+Operating System Services and Components
+
+During execution when application invokes a system call, it is interrupted and the system switches to kernel space. The kernel then saves the process execution context of interrupted process and determines purpose of the call. The kernel warily makes sure that the request is valid and that the process invoking the system calls has sufficient privilege. Some of the system calls can only be invoked by a user with super user privilege.
+
+If the whole thing is fine, the kernel processes the request in kernel mode and can access the device drivers in charge of controlling the hardware. The data of the calling process can be read and modified by kernel, as it has access to memory in user space.
+
+But, it will not execute any code from a user application, for clear security reasons. When the kernel finishes the processing of request, it restores the process execution context that was saved when the system call was Invoked. After this, control returns to the calling program which persists executing
+
+USER SPACE: Application and Libraries
+
+KERNEL, Process, memory, device, and file management etc
+
+HARDWARE: CPU, Memory, devices etc
+
+Fig. 1.6.1: The kernel
+
+As shown in Fig. 1.6.1 the kernel is a central module of most computer operating systems. Its main responsibilities are to:
+
+Act as a standard interface to the system hardware: For example, while reading a file, application does not have to be aware of the hard-drive model or physical geometry as kernel provides abstraction layer to the hardware.
+
+Manage computer resources: As several users and programs shares machine and its devices, access to those resources must be synchronized. The kernel implements and ensures a fair access to resources such as the processor, the memory and the devices.
+
+Put into effect isolation between processes: The kernel guarantees that one process cannot corrupt the execution environment of another process. Any process cannot access the memory that the kernel has allocated to other process.
+
+Implement multitasking: Each process gets the false impression that it is running without interrupted on Its own processor. Actually, several processes compete constantly for system resources: the kernel keeps switching the active process for each processor behind the scene
+
+There are two ways for the process to switch from the user mode to the kernel mode. These are:
+
+A user process can explicitly request to enter in kernel mode by issuing a system call.
+
+During the execution of user process kernel can take over to carry out some system housekeeping task.
+
+The kernel mode is both a software and hardware state. Modern processors offer a advanced execution mode, called as Supervisor Mode in which only kernel runs. The privileged operations are such as modifying special registers, disabling interrupts, accessing memory management hardware or computer peripherals. If it is not in supervisor mode, the processor will reject these operations.
+
+System calls take place in different ways, depending on the computer in use. Apart from the identity of the desired system call, more information is needed. The precise type and amount of information differ according to the particular operating system and call. Consider the example of getting the input. We may require specifying the source, which can be file or device. We also need to specify the address and length of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1-39
+
+the memory buffer into which the input should be read. The device or file and length may be implicit in the call
+
+Operating System Services and Comp
+
+Parameters can be passed to the operating system by following three different ways:
+
+Pass the parameters in registers.
+
+If there are more parameters than registers, then the parameters are generally stored in a black, or table, in memory, and the address of the block is passed ar a parameter in a register. This is the approach taken by Linux and Solaris.
+
+Program can place the parameters onto the stack which then popped off the stack by the operating system.
+
+Some operating systems favor the block or stack method, because those methods do not limit the number or length of parameters being passed.
+
+1.6.2 Types of System Calls
+
+Q. State any four types of system calls.
+
+System calls are categorized in five groups. These are
+
+5-22
+
+1. Process control
+
+2. File manipulation
+
+3. Device manipulation
+
+4. Information maintenance
+
+5. Communications
+
+Sr. No.
+
+Group
+
+1
+
+Process control
+
+2
+
+Examples
+
+end, abort, load, execute, create process, terminate process, get process attributes. set process attributes, wait for time, wait event, signal event, allocate and free memory
+
+File manipulation
+
+create file, delete file, open, close, read, write, reposition, get file attributes, set file attributes
+
+3.
+
+Device manipulation
+
+request device, release device, read, write, reposition, get device attributes, set device attributes, logically attach or detach devices
+
+4
+
+Information maintenance
+
+get time or date, set time or date, get system data, set system data, get process, file, or device attributes, set process, file, or device attributes
+
+5.
+
+Communications
+
+create, delete communication connection, send, receive messages, transfer status information, attach or detach remote devices.
+
+1.6.3 Some Examples of System Calls
+
+1. Open: Open system call request to the operating system for using a file. The files path is used as argument to specify the file. The 'flags' and 'mode' arguments to this call specifies the way of using the file. On successful approval by operating system, it returns a "file descriptor" which is a positive Integer. Returning of value-1 Indicates denial of access to file and "errno" needs to be checked to get reason of denial.
+
+1-40
+2. Close Close Informs to the operating system that file with said file descriptor is used. After this, same fil descriptor can be reused by operating system.
+
+3. Read Read() specifies to the OS the number of (size) bytes to read from the file opened in file descriptor "It" It also spectly to put these bytes into the location pointed to by "buf. The return value is number of bytes actually read
+
+4. Write: Write() is similar to read() system call, only it writes the bytes instead of reading them. It returns the number of bytes actually written, which is almost invariably "size".
+
+5. Create process: During the execution process can create new process by using create process system call. The process which creates new process is called a parent process, and the new processes are called the children of that process. Newly created processes may in turn create other new processes, creating a tree of processes.
+
+1.7 Operating System Components
+
+Components of operating system are discussed in following sections.
+
+1.7.1 Process Management
+
+A program or application under execution is called as process. A process includes the execution context.
+
+A program resides on the disk. On disk it does require any resources.
+
+A program gets executed in main memory. So it should be transferred from disk to memory.
+
+To complete execution, program needs many resources and competes for it. These resources are memory, CPU files etc. Now it becomes process, From the computation context point of view, a process is defined by CPU state, memory contents and execution environment
+
+Process manager Implements the process management functions.
+
+In multiprogramming, single CPU is shared among many processes.
+
+If many processes remain busy in completing I/O, CPU is allocated to only one process at a given point of time.
+
+Here some policy is required to allocate CPU to process, called as CPU scheduling.
+
+If multiple users are working on the system, operating system switches the CPU from one user process to other.
+
+User gets the illusion that only he or she is using the system. Process synchronization mechanism is required to ensure that only one process should use critical section.
+
+Process communication and synchronization, deadlock handling, suspension and resumption of processes and creation and deletion of the processes etc. are some of the activities performed in process management.
+
+Program counter contains address of the instruction from which execution resumes after context switch.
+
+The process management activities involve:
+
+1. To provide control access to shared resources like file, memory, I/O and CPU.
+
+2. Control the execution of user applications.
+
+3. Creation, execution and deletion of user and system processes.
+
+4. Resume a process execution or cancel it.
+
+5. Scheduling of a process.
+
+6. Synchronization, Interposes communication and deadlock handling for processes.
+
+1.7.2 Main Memory Management
+
+a. Write down the responsibilities of the following components of OS: Memory Management
+
+S-22, W-21
+
+
+
+
+
+
+
+
+
+
+
+
+1-41
+
+Operating System Services and Componenta
+
+Memory is an important resource of the computer system that needs to be managed by the operating system. To execute the program, user needs to keep the program in main memory.
+
+The main memory is volatile. Therefore, a user needs to sture his program in some secondary storage which is non-volatile.
+
+Every process needs main memory since a process code, stack, heap (dynamically-allocated structures), and data (variables) must all reside in memory.
+
+The management of main memory is required to support for multiprogramming Many executables processes exist in main memory at any given time. Different processes in main memory have different address space. Memory manager is the module of the operating system responsible for managing memory.
+
+Programs after completion of execution move out of main memory or processes suspended for completion of 1/0 can be swapped out on secondary storage to free the main memory for other processes.
+
+New processes are required to be loaded in main memory. If available main memory is sufficient to hold all processes swapping between main memory and secondary memory is done.
+
+Memory managers move processes back and forth between memory and during execution. So it is required that operating system should have some strategy for the management of memory.
+
+The memory management activities handled by operating system are:
+
+1 Allocation of memory to the processes.
+
+2. Free the memory from process after completion of execution.
+
+3. Reallocation of memory to a program after used block becomes free.
+
+4. Keep track of memory usage by the process.
+
+1.7.3 File Management
+
+5-22, W-23
+
+Q. Write down the responsibilities of the following components of OS: File Management,
+
+Following are the necessities for long term information storage:
+
+It must be possible to store a very large amount of information.
+
+The information should loss after termination of the process using it.
+
+Several processes must be able to access the information simultaneously.
+
+In order to fulfil the above requirements, it is necessary to store information on disks and other secondary storage in units called files.
+
+A file is a named collection of related information that is recorded on secondary storage. The data cannot be written directly to secondary storage unless they are within a file. Processes can then read information from the file. It also can write new information into the file if needed.
+
+After process termination, information in file should remain retained and should vanish. A file should only vanish when its holder clearly removes it. Operating system manages the files. File system describes how files are structured, named, accessed, used, protected and implemented.
+
+The file management activities of operating system consist of:
+
+1. Creation and deletion of files and directories.
+
+2. Provide access to files and allocation of storage space for files.
+
+3. Maintain back-up of files.
+
+4. File Security.
+
+5. Providing the primitives for manipulating files and directories.
+
+
+
+
+
+
+
+
+
+
+
+1-42
+
+1.7.4
+
+Operating System Services and Components
+
+I/O System Management
+
+
+As we know that 1/0 is one of the main functions of an operating system and is used to control the entire computer's Input/output devices.
+
+Basically it should have to issue commands to the devices, catch interrupts, and handle errors.
+
+It should also provide an interface between the devices and the rest of the system that is simple and easy to use.
+
+The 1/0 represents a significant fraction of the total operating system. Computers operate with many kinds of devices.
+
+As we know that it includes storage devices (disks, tapes), transmission devices (network cards, modems), and human-Interface devices (screen, keyboard, mouse).
+
+Following are the components of 1/0 subsystem.
+
+1. Buffering, Caching, and Spooling which are memory management components.
+
+2. Device driver interface.
+
+3. Drivers for specific devices.
+
+1.7.5 Secondary Storage Management
+
+Main memory is volatile. Storage devices and 1/0 devices are used in computer system. Storage devices (disk, tapes), transmission devices (network cards, modems), and human-interface devices (screen, keyboard, mouse),
+
+Two main types of storage technology used today are magnetic storage and optical storage. Primary magnetic storage devices are: Diskettes, Hard disks (both fixed and removable), High capacity floppy disks, Disk cartridges, and Magnetic tape.
+
+Primary optical storage devices are: Compact Disk, Read Only Memory (CD ROM), Digital Video Disk Read Only Memory (DVD ROM), CD Recordable (CD R), CD Rewritable (CD RW), Photo C.
+
+The hard disk is used as main storage device in your computer system. It is magnetic type of storage device.
+
+Within one hard disk unit, many physical disks are present. Each disk is known as a platter.
+
+Several metal platters are present within the hard disk and these are coated with a special magnetic material.
+
+The platters rotate many thousands of times within a second for accessing the data. Magnetic read and write head are present which just above the surface of the platter.
+
+Material used for making the platters is aluminium, glass, or ceramic and two read/write heads are present, one for upper and lower surface.
+
+Platters are arranged in stack because of which the position of the read/write heads often is referred to by its cylinder.
+
+Cylinder is the location of a single track through all platters. Due to disk cache mechanism, time required to read from and write to hard disk is improved.
+
+Now days it is the part of hard disk. Hard disk can be partitioned, and each partition can be used as separate drive. Storage capacity of hard disk can be in gigabyte or terabytes.
+
+The device management tasks include:
+
+1. To open, close and write device drivers,
+
+2. Communicate, control and monitor the device driver.
