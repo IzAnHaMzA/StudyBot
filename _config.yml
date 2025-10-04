@@ -38,8 +38,8 @@ exclude:
   - .idea/
   - env/
   - __pycache__/
-  - *.pyc
-  - *.log
+  - "*.pyc"
+  - "*.log"
   - data/
   - models/
   - uploads/
@@ -48,9 +48,9 @@ exclude:
   - api_keys_config.json
   - os_bot.log
   - ml_training.log
-  - *.zip
-  - *.pkl
-  - *.model
+  - "*.zip"
+  - "*.pkl"
+  - "*.model"
 
 # Include files
 include:
